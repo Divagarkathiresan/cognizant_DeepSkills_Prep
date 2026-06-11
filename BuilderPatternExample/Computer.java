@@ -5,10 +5,10 @@ public class Computer {
     private String model;
     private int RAM;
 
-    Computer(ComputerBuilder computerBuilder){
-        this.name=computerBuilder.name;
-        this.model=computerBuilder.model;
-        this.RAM=computerBuilder.ram;
+    Computer(String name,String model,int RAM){
+        this.name=name;
+        this.model=model;
+        this.RAM=RAM;
     }
 
     public void show(){

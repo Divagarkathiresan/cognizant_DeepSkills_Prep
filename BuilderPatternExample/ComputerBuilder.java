@@ -19,6 +19,6 @@ public class ComputerBuilder {
     }
 
     public Computer Build(){
-        return new Computer(this);
+        return new Computer(name,model,ram);
     }
 }
