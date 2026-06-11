@@ -2,10 +2,10 @@ package BuilderPatternExample;
 public class TestComputer{
     public static void main(String[] args){
         Computer comp=new ComputerBuilder()
-                            .setname("HP")
                             .setmodel("Pavilion")
+                            .setname("HP")
                             .setram(16)
-                            .getComputer();
+                            .Build();
         comp.show();
     }
 }

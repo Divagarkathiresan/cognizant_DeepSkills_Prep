@@ -18,7 +18,7 @@ public class ComputerBuilder {
         return this;
     }
 
-    public Computer getComputer(){
+    public Computer Build(){
         return new Computer(this);
     }
 }
