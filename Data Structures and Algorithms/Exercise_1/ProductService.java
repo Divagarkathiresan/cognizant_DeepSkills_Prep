@@ -1,4 +1,4 @@
-package Exercise_1_Inventory_Management_System;
+package Exercise_1;
 import java.util.*;
 
 public class ProductService {
@@ -9,6 +9,10 @@ public class ProductService {
         int id=ProductIdGenerator.GenerateProductId();
         Product product=new Product(name, q, p);
         products.put(id,product);
+    }
+
+    public LinkedHashMap<Integer,Product> getAllItems(){
+        return products;
     }
 
 }

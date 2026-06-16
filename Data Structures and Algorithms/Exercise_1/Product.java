@@ -1,4 +1,4 @@
-package Exercise_1_Inventory_Management_System;
+package Exercise_1;
 
 public class Product {
     private String productName;
