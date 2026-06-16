@@ -19,4 +19,4 @@
 
 -- select * FROM Student;
 
-select * from Customers;
+select * from Loans;
