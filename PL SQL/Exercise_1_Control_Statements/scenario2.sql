@@ -28,6 +28,3 @@ BEGIN
 
     commit;
 END;
-/alter table Customers
-add IsVIP varchar(5)alter table Customers
-add IsVIP varchar(5)
