@@ -1,8 +1,8 @@
 package Exercise_1;
 
 public class ProductIdGenerator {
-    public static int ProductId;
+    public static int ProductId=1;
     public static int GenerateProductId(){
-        return ProductId+1;
+        return ProductId++;
     }
 }

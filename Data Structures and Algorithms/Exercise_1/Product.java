@@ -1,6 +1,7 @@
 package Exercise_1;
 
 public class Product {
+    
     private String productName;
     private int productQuantity;
     private int productPrice;

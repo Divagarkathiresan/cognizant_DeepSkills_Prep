@@ -1,4 +1,5 @@
 package Exercise_1;
+
 import java.util.*;
 public class Main{
     public static void main(String[] args){
@@ -23,18 +24,62 @@ public class Main{
                 case 2:
                     LinkedHashMap<Integer,Product> hm=ps.getAllItems();
                     for(Map.Entry<Integer,Product> M:hm.entrySet()){
-                        System.out.println(M.getKey());
+                        System.out.println("Product Id : "+M.getKey());
                         Product prod=M.getValue();
-                        System.out.println(prod.getProductName());
-                        System.out.println(prod.getProductQuantity());
-                        System.out.println(prod.getProductPrice());
-
+                        System.out.println("Product Name : "+prod.getProductName());
+                        System.out.println("Product Quantity : "+prod.getProductQuantity());
+                        System.out.println("Product Price : "+prod.getProductPrice());
                     }
                     break;
                 case 3:
+                    
+                    String updating_name="";
+                    int updating_quantity=-1;
+                    int updating_price=-1;
+
+                    System.out.println("Enter the product id to be changed : ");
+                    int Id=Integer.parseInt(sc.nextLine());
+
+                    boolean nameFlag=false;
+                    System.out.print("Do you want to change the product's name (yes/no): ");
+                    String nameAccept = sc.nextLine();
+                    if(nameAccept.equalsIgnoreCase("yes")){
+                        nameFlag=true;
+                    }
+                    if(nameFlag){
+                        System.out.print("Enter the updating name : ");
+                        String nameToUpdate=sc.nextLine();
+                        updating_name=nameToUpdate;
+                    }
+
+                    boolean quantityFlag=false;
+                    System.out.print("Do you want to change the product's Quantity (yes/no): ");
+                    String quantityAccept = sc.nextLine();
+                    if(quantityAccept.equalsIgnoreCase("yes")){
+                        quantityFlag=true;
+                    }
+                    if(quantityFlag){
+                        System.out.print("Enter the updating quantity : ");
+                        int quantityToUpdate=Integer.parseInt(sc.nextLine());
+                        updating_quantity=quantityToUpdate;
+                    }
+                    boolean priceFlag=false;
+                    System.out.print("Do you want to change the product's price (yes/no): ");
+                    String priceAccept = sc.nextLine();
+                    if(priceAccept.equalsIgnoreCase("yes")){
+                        priceFlag=true;
+                    }
+                    if(priceFlag){
+                        System.out.print("Enter the updating price : ");
+                        int priceToUpdate=Integer.parseInt(sc.nextLine());
+                        updating_price=priceToUpdate;
+                    }
+                    ps.updateItem(Id, updating_name, updating_quantity, updating_price);
+
                     break;
                 case 4:
                     System.out.println("Exiting...");
+                    sc.close();
                     System.exit(0);
                 default:
                     System.out.println("Enter the valid number from 1 to 3");
