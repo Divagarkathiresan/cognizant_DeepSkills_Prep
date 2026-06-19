@@ -29,6 +29,7 @@ public class Main{
                         System.out.println("Product Name : "+prod.getProductName());
                         System.out.println("Product Quantity : "+prod.getProductQuantity());
                         System.out.println("Product Price : "+prod.getProductPrice());
+                        System.out.println("-------------------------------------");
                     }
                     break;
                 case 3:
