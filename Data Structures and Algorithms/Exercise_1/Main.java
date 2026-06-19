@@ -23,13 +23,16 @@ public class Main{
                     break;
                 case 2:
                     LinkedHashMap<Integer,Product> hm=ps.getAllItems();
-                    for(Map.Entry<Integer,Product> M:hm.entrySet()){
+                    if(hm.size() ==0 ) {System.out.println("No items in the inventory");}
+                    else {
+                        for(Map.Entry<Integer,Product> M:hm.entrySet()){
                         System.out.println("Product Id : "+M.getKey());
                         Product prod=M.getValue();
                         System.out.println("Product Name : "+prod.getProductName());
                         System.out.println("Product Quantity : "+prod.getProductQuantity());
                         System.out.println("Product Price : "+prod.getProductPrice());
                         System.out.println("-------------------------------------");
+                        }
                     }
                     break;
                 case 3:
