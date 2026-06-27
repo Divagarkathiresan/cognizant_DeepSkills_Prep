@@ -1,12 +1,16 @@
 package com.divagar.junit;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.ValueSource;
+
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 
 public class CalculatorTest {
 
-    Calculator calculator;
+    private Calculator calculator;
 
     @BeforeEach
     void createObjectForCalculator(){
@@ -40,6 +44,22 @@ public class CalculatorTest {
     @Test
     void shouldThrowException(){
         assertThrows(ArithmeticException.class,()-> calculator.divideNumbers(10, 0));
+    }
+
+    @ParameterizedTest
+    @ValueSource(ints={1,2,3,4,5})
+    void shouldPositive(int num){
+        assertTrue(calculator.isPositive(num));
+    }
+
+    @ParameterizedTest
+    @CsvSource({
+        "1,2,3",
+        "10,20,30",
+        "11,19,30"
+    })
+    void shouldAdd(int a,int b,int expected){
+        assertEquals(expected,calculator.addNumbers(a, b));
     }
 
     @AfterEach
