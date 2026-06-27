@@ -19,4 +19,24 @@
 
 -- select * FROM Student;
 
-select * from Loans;
+-- declare
+--     total number;
+-- begin
+--     total:=10/0;
+--     DBMS_OUTPUT.PUT_LINE('Total is ' || total);
+-- exception
+--     when others then
+--         DBMS_OUTPUT.PUT_LINE('Cannot divide by zero');
+-- end;
+-- /
+
+-- Create or replace procedure Greet
+-- AS
+-- BEGIN
+--     dbms_output.put_line('Hii hello');
+-- end;
+-- /
+
+-- EXECUTE Greet;
+
+select * from Accounts;

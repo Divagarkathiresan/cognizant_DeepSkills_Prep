@@ -22,5 +22,6 @@ begin
         end if;
     end loop;
     close give_message_for_loan;
+
 end;
 /
