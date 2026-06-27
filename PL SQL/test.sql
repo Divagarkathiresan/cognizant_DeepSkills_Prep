@@ -30,13 +30,34 @@
 -- end;
 -- /
 
--- Create or replace procedure Greet
--- AS
--- BEGIN
---     dbms_output.put_line('Hii hello');
--- end;
--- /
+Create or replace procedure UpdateName(name in out varchar2)
+AS
+BEGIN
+    name := 'Mr. '||name;
+end;
+/
 
--- EXECUTE Greet;
+DECLARE
+    v_name VARCHAR2 := 'Diva';
+BEGIN
 
-select * from Accounts;
+    UpdateName(v_name);
+
+    DBMS_OUTPUT.PUT_LINE(v_name);
+
+END;
+/
+
+declare 
+begin 
+
+    update Customers 
+    set Name=UpdateName('Divagar')
+    where CustomerID=1;
+    
+    dbms_output.put_line('Updated');
+    commit;
+end;
+/
+
+select * from Customers;
