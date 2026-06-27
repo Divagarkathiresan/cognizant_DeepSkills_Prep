@@ -60,4 +60,4 @@ begin
 end;
 /
 
-select * from Customers;
+select * from Loans;

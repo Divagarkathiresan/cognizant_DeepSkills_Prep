@@ -1,9 +1,9 @@
-create or replace function CalculateAge(DOB in number)
+create or replace function CalculateAge(dob in Date)
 return number
 as
     age number;
 begin
-    age := 2026-DOB;
+    age:=floor(months_between(sysdate,dob)/12);
     return age;
 end;
 /
