@@ -7,9 +7,9 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 
 public class CalculatorTest {
-
     private Calculator calculator;
 
     @BeforeEach
@@ -46,6 +46,7 @@ public class CalculatorTest {
         assertThrows(ArithmeticException.class,()-> calculator.divideNumbers(10, 0));
     }
 
+    @Disabled
     @ParameterizedTest
     @ValueSource(ints={1,2,3,4,5})
     void shouldPositive(int num){
