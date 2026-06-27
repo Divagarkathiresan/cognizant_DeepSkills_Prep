@@ -31,6 +31,17 @@ public class CalculatorTest {
         assertEquals(0, result);
     }
 
+    @Test
+    void shouldDivide(){
+        int result=calculator.divideNumbers(10, 5);
+        assertEquals(2, result);
+    }
+
+    @Test
+    void shouldThrowException(){
+        assertThrows(ArithmeticException.class,()-> calculator.divideNumbers(10, 0));
+    }
+
     @AfterEach
     void setCalculatorObjectToNull(){
         calculator=null;
