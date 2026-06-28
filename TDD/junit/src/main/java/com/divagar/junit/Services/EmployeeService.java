@@ -1,5 +1,7 @@
 package com.divagar.junit.Services;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 
 import com.divagar.junit.Models.Employee;
@@ -9,7 +11,7 @@ import com.divagar.junit.Repositories.EmployeeRepository;
 public class EmployeeService{
     private EmployeeRepository employeeRepository;
 
-    EmployeeService(EmployeeRepository employeeRepository){
+    public EmployeeService(EmployeeRepository employeeRepository){
         this.employeeRepository=employeeRepository;
     }
 
@@ -18,6 +20,10 @@ public class EmployeeService{
     }
 
     public Employee getEmployeeById(Integer id){
-        return employeeRepository.findById(id).orElseThrow(()-> new RuntimeException("Employee not found"));
+        return employeeRepository.findById(id).orElse(null);
+    }
+
+    public List<Employee> getAllEmployee(){
+        return employeeRepository.findAll();
     }
 }

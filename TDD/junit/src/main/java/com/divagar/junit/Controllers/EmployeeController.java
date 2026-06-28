@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.divagar.junit.Services.EmployeeService;
 import com.divagar.junit.Models.Employee;
 
+import java.util.List;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +21,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 public class EmployeeController{
     private EmployeeService employeeService;
 
-    EmployeeController(EmployeeService employeeService){
+    public EmployeeController(EmployeeService employeeService){
         this.employeeService=employeeService;
     }
 
@@ -31,9 +32,19 @@ public class EmployeeController{
     }
     
     @GetMapping("/get/{id}")
-    public ResponseEntity<Employee> retrieveEmployeeById(@PathVariable Integer id){
+    public ResponseEntity<?> retrieveEmployeeById(@PathVariable Integer id){
         Employee retrievedEmployee=employeeService.getEmployeeById(id);
-        return ResponseEntity.status(HttpStatus.OK).body(retrievedEmployee);
+        if (retrievedEmployee != null){
+            return ResponseEntity.status(HttpStatus.OK).body(retrievedEmployee);
+        }else{
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Id "+id+" not Found");
+        }
+    }
+
+    @GetMapping("/getAll")
+    public ResponseEntity<List<Employee>> retrieveAllEmployees(){
+        List<Employee> list=employeeService.getAllEmployee();
+        return ResponseEntity.status(HttpStatus.OK).body(list);
     }
 
 
