@@ -1,9 +1,11 @@
 package com.divagar.junit;
 
 public class Calculator {
+
     public int addNumbers(int a,int b){
         return a+b;
     }
+
     public int divideNumbers(int a,int b){
         int result=0;
         try{
@@ -13,6 +15,7 @@ public class Calculator {
         }
         return result;
     }
+    
     public boolean isPositive(int a){
         return a>0;
     }
