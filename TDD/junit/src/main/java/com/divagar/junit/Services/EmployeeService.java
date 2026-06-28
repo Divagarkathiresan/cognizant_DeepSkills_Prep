@@ -45,4 +45,8 @@ public class EmployeeService{
     public void deleteAllEmployee(){
         employeeRepository.deleteAll();
     }
+
+    public List<Employee> getAllEmployeesByDepartmentName(String dept){
+        return employeeRepository.getAllEmployeesbyDepartment(dept);
+    }
 }

@@ -77,4 +77,9 @@ public class EmployeeController{
         return ResponseEntity.status(HttpStatus.OK).body("All employees deleted");
     }
 
+    @GetMapping("/getbyDept/{dept}")
+    public ResponseEntity<?> getAllEmployeesByDepartmentName(@PathVariable String dept){
+        List<Employee> employeeListByDepartment=employeeService.getAllEmployeesByDepartmentName(dept);
+        return ResponseEntity.status(HttpStatus.OK).body(employeeListByDepartment);
+    }
 }

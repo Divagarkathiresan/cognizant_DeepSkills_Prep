@@ -32,11 +32,11 @@ public class EmployeeServiceTest {
     }
 
     @Test
-    public void shouldSaveEmployee1(){
+    public void shouldSaveEmployee1() throws Exception{
         //arrange
         Employee employee=new Employee(1,"Divagar","IT");
-        when(employeeRepository.save(employee)).thenReturn(employee);
         //act
+        when(employeeRepository.save(any(Employee.class))).thenReturn(employee);
         Employee checkEmployee=service.saveEmployee(employee);
         //assert
         assertEquals(employee.getEmployeeId(), checkEmployee.getEmployeeId());
