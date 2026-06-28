@@ -13,6 +13,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 
@@ -43,9 +44,19 @@ public class EmployeeController{
 
     @GetMapping("/getAll")
     public ResponseEntity<List<Employee>> retrieveAllEmployees(){
-        List<Employee> list=employeeService.getAllEmployee();
+        List<Employee> list=employeeService.getAllEmployees();
         return ResponseEntity.status(HttpStatus.OK).body(list);
     }
-
+    
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<?> deleteEmployeeById(@PathVariable Integer id){
+        Employee wannaDeleteEmployee=employeeService.getEmployeeById(id);
+        if(wannaDeleteEmployee!=null) {
+            employeeService.deleteEmployeeById(id);
+            return ResponseEntity.status(HttpStatus.OK).body("Employee deleted");
+        }else{
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Employee not found");
+        }
+    }
 
 }
