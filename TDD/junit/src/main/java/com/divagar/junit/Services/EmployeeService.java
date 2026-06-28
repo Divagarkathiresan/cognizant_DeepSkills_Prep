@@ -27,7 +27,22 @@ public class EmployeeService{
         return employeeRepository.findAll();
     }
 
+    public Employee updateEmployeeById(Integer id,Employee NewEmp){
+        Employee emp=employeeRepository.findById(id).orElse(null);
+        if(emp!=null){
+            if(NewEmp.getEmployeeName()!=null) emp.setEmployeeName(NewEmp.getEmployeeName());
+            if(NewEmp.getDept()!=null) emp.setDept(NewEmp.getDept());
+            return employeeRepository.save(emp);
+        }else{
+            return null;
+        }
+    }
+
     public void deleteEmployeeById(Integer id){
         employeeRepository.deleteById(id);
+    }
+
+    public void deleteAllEmployee(){
+        employeeRepository.deleteAll();
     }
 }

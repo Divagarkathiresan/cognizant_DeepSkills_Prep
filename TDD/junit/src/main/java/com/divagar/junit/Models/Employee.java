@@ -19,12 +19,14 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Employee{
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="employee_id")
     private Integer employeeId;
 
     @Column(nullable = false)
     private String employeeName;
+
+    private String dept;
 
     
 }
