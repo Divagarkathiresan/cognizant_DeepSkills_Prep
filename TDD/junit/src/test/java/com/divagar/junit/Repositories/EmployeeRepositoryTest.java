@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import java.util.List;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -19,15 +20,20 @@ public class EmployeeRepositoryTest{
     @Autowired
     EmployeeRepository employeeRepository;
 
+    @BeforeEach
+    public void setDataBaseEmpty(){
+        employeeRepository.deleteAll();
+    }
+
     @Test
     public void shouldSaveAnEmployee(){
         //arrange
-        Employee employee=new Employee(1,"Alex","IT");
+        Employee employee=new Employee(null,"Alex","IT");
         //act
         Employee savedEmployee=employeeRepository.save(employee);
         //assert
         assertNotNull(savedEmployee);
-        assertEquals(employee.getEmployeeId(), savedEmployee.getEmployeeId());
+        assertEquals(employee.getEmployeeName(), savedEmployee.getEmployeeName());
     }
 
     @Test

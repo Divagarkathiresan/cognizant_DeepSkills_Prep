@@ -23,6 +23,7 @@ import com.divagar.junit.Models.Employee;
 public class EmployeeServiceTest {
     @Mock
     EmployeeRepository employeeRepository;
+
     @InjectMocks
     EmployeeService service;
 
@@ -32,7 +33,7 @@ public class EmployeeServiceTest {
     }
 
     @Test
-    public void shouldSaveEmployee1() throws Exception{
+    public void shouldSaveEmployee1(){
         //arrange
         Employee employee=new Employee(1,"Divagar","IT");
         //act
@@ -44,7 +45,7 @@ public class EmployeeServiceTest {
     }
 
     @Test
-    public void shouldSaveEmployee(){
+    public void shouldSaveEmployee() {
         Employee emp=new Employee(1,"alex","IT");
         when(employeeRepository.save(any(Employee.class))).thenReturn(emp);
 
