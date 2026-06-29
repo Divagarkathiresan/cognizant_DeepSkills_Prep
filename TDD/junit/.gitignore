@@ -31,4 +31,4 @@ build/
 
 ### VS Code ###
 .vscode/
-src/main/resources/application.properties
+TDD/junit/src/main/resources/application.properties
