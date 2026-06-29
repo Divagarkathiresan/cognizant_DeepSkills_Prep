@@ -6,10 +6,6 @@ public class ProductService {
 
     public static LinkedHashMap<Integer,Product> products=new LinkedHashMap<>();
 
-    ProductService(){
-
-    }
-
     public void addItem(String name,int q,int p){
         int id=ProductIdGenerator.GenerateProductId();
         Product product=new Product(name, q, p);
