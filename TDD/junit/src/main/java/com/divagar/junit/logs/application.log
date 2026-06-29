@@ -1,0 +1,35 @@
+2026-06-29T21:16:57.019+05:30  INFO 16331 --- [junit] [main] com.divagar.junit.JunitApplication       : Starting JunitApplication using Java 21.0.11 with PID 16331 (/Users/sanjana/Desktop/College/Cognizant/TDD/junit/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-06-29T21:16:57.020+05:30  INFO 16331 --- [junit] [main] com.divagar.junit.JunitApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-06-29T21:16:57.287+05:30  INFO 16331 --- [junit] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-29T21:16:57.309+05:30  INFO 16331 --- [junit] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interface.
+2026-06-29T21:16:57.482+05:30  INFO 16331 --- [junit] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-29T21:16:57.489+05:30  INFO 16331 --- [junit] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-29T21:16:57.489+05:30  INFO 16331 --- [junit] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2026-06-29T21:16:57.511+05:30  INFO 16331 --- [junit] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-29T21:16:57.511+05:30  INFO 16331 --- [junit] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 473 ms
+2026-06-29T21:16:57.602+05:30  INFO 16331 --- [junit] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-29T21:16:57.623+05:30  INFO 16331 --- [junit] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2026-06-29T21:16:57.637+05:30  INFO 16331 --- [junit] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-29T21:16:57.757+05:30  INFO 16331 --- [junit] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-29T21:16:57.768+05:30  INFO 16331 --- [junit] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-29T21:16:57.942+05:30  INFO 16331 --- [junit] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48fc0211
+2026-06-29T21:16:57.943+05:30  INFO 16331 --- [junit] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-29T21:16:57.981+05:30  INFO 16331 --- [junit] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.5
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-29T21:16:58.262+05:30  INFO 16331 --- [junit] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-29T21:16:58.291+05:30  INFO 16331 --- [junit] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T21:16:58.374+05:30  INFO 16331 --- [junit] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-29T21:16:58.612+05:30  WARN 16331 --- [junit] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-29T21:16:58.744+05:30  INFO 16331 --- [junit] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-06-29T21:16:58.749+05:30  INFO 16331 --- [junit] [main] com.divagar.junit.JunitApplication       : Started JunitApplication in 1.921 seconds (process running for 2.054)
+2026-06-29T21:17:02.192+05:30  INFO 16331 --- [junit] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-29T21:17:02.201+05:30  INFO 16331 --- [junit] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-06-29T21:17:02.205+05:30  INFO 16331 --- [junit] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-29T21:17:02.206+05:30  INFO 16331 --- [junit] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-29T21:17:02.212+05:30  INFO 16331 --- [junit] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
