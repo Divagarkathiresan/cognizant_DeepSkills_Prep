@@ -1,0 +1,37 @@
+2026-07-02T18:18:22.023+05:30  INFO 29661 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 21.0.11 with PID 29661 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-02T18:18:22.026+05:30  INFO 29661 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-02T18:18:22.446+05:30  INFO 29661 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-02T18:18:22.458+05:30  INFO 29661 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2026-07-02T18:18:22.718+05:30  INFO 29661 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-02T18:18:22.735+05:30  INFO 29661 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-02T18:18:22.735+05:30  INFO 29661 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-02T18:18:22.768+05:30  INFO 29661 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 701 ms
+2026-07-02T18:18:22.907+05:30  INFO 29661 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-02T18:18:22.935+05:30  INFO 29661 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-02T18:18:23.168+05:30  INFO 29661 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-02T18:18:23.186+05:30  INFO 29661 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-02T18:18:23.548+05:30  INFO 29661 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26d24d7a
+2026-07-02T18:18:23.550+05:30  INFO 29661 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-02T18:18:23.605+05:30  INFO 29661 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/librarydb?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: librarydb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-02T18:18:23.834+05:30  INFO 29661 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-02T18:18:23.877+05:30  INFO 29661 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-02T18:18:23.959+05:30  WARN 29661 --- [librarymanagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-02T18:18:24.285+05:30  INFO 29661 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-02T18:18:24.290+05:30  INFO 29661 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Started LibrarymanagementApplication in 2.571 seconds (process running for 2.824)
+2026-07-02T18:18:24.292+05:30  INFO 29661 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Main method executed
+2026-07-02T18:25:40.715+05:30  INFO 29661 --- [librarymanagement] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-02T18:25:40.722+05:30  INFO 29661 --- [librarymanagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-02T18:25:40.729+05:30  INFO 29661 --- [librarymanagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-02T18:25:40.734+05:30  INFO 29661 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-02T18:25:40.742+05:30  INFO 29661 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
