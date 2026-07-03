@@ -226,3 +226,8 @@ Caused by: org.springframework.beans.NotWritablePropertyException: Invalid prope
 2026-07-03T11:24:40.826+05:30  INFO 45011 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
 2026-07-03T11:24:40.831+05:30  INFO 45011 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Started LibrarymanagementApplication in 2.637 seconds (process running for 2.892)
 2026-07-03T11:24:40.833+05:30  INFO 45011 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Main method executed
+2026-07-03T11:25:27.675+05:30  INFO 45011 --- [librarymanagement] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-03T11:25:27.687+05:30  INFO 45011 --- [librarymanagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-03T11:25:27.692+05:30  INFO 45011 --- [librarymanagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-03T11:25:27.695+05:30  INFO 45011 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-03T11:25:27.700+05:30  INFO 45011 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -9,7 +9,7 @@ public class EmployeeService {
     public EmployeeService() {
     }
 
-    public void setEmployeeRepository(EmployeeRepository employeeRepository) {
+    public void setterMethodForEmployeeRepository(EmployeeRepository employeeRepository) {
         this.employeeRepository = employeeRepository;
     }
 
