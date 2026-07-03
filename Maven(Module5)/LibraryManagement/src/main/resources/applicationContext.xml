@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="employeeRepository"
+          class="com.example.librarymanagement.Repository.EmployeeRepository">
+    </bean>
+
+    <bean id="employeeService"
+          class="com.example.librarymanagement.Service.EmployeeService">
+
+        <property name="employeeRepository" ref="employeeRepository"/>
+
+    </bean>
+
+</beans>
