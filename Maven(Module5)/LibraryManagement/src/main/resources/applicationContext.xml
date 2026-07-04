@@ -6,14 +6,14 @@
        http://www.springframework.org/schema/beans
        https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="employeeRepository"
-          class="com.example.librarymanagement.Repository.EmployeeRepository">
+    <bean id="bookRepository"
+          class="com.example.librarymanagement.Repository.BookRepository">
     </bean>
 
-    <bean id="employeeService"
-          class="com.example.librarymanagement.Service.EmployeeService">
+    <bean id="bookService"
+          class="com.example.librarymanagement.Service.BookService">
 
-        <property name="employeeRepository" ref="employeeRepository"/>
+        <property name="bookRepository" ref="bookRepository"/>
 
     </bean>
 

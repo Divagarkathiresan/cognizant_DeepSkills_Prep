@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 
-import com.example.librarymanagement.Service.EmployeeService;
+import com.example.librarymanagement.Service.BookService;
 
 @SpringBootApplication
 @ImportResource("classpath:applicationContext.xml")
@@ -23,7 +23,7 @@ public class LibrarymanagementApplication implements CommandLineRunner{
 
     @Override
     public void run(String... args) {
-        EmployeeService service = context.getBean("employeeService", EmployeeService.class);
+        BookService service = context.getBean("bookService", BookService.class);
         service.show();
     }
 	public static void main(String[] args) {
