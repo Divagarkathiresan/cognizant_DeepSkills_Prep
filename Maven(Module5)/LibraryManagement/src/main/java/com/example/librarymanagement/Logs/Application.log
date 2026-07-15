@@ -1,156 +1,60 @@
-2026-07-04T10:10:23.481+05:30  INFO 88756 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 21.0.11 with PID 88756 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
-2026-07-04T10:10:23.487+05:30  INFO 88756 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-07-04T10:10:24.293+05:30  INFO 88756 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-04T10:10:24.311+05:30  INFO 88756 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
-2026-07-04T10:10:24.678+05:30  INFO 88756 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-07-04T10:10:24.693+05:30  INFO 88756 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-07-04T10:10:24.694+05:30  INFO 88756 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-07-04T10:10:24.734+05:30  INFO 88756 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1203 ms
-2026-07-04T10:10:24.880+05:30  INFO 88756 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-07-04T10:10:24.927+05:30  INFO 88756 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-07-04T10:10:25.280+05:30  INFO 88756 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-04T10:10:25.310+05:30  INFO 88756 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-07-04T10:10:25.686+05:30  INFO 88756 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e9f8160
-2026-07-04T10:10:25.687+05:30  INFO 88756 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-07-04T10:10:25.769+05:30  INFO 88756 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/librarydb?createDatabaseIfNotExist=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 9.5
-	Default catalog/schema: librarydb/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-07-04T10:10:26.064+05:30  INFO 88756 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-04T10:10:26.116+05:30  INFO 88756 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-04T10:10:26.133+05:30  WARN 88756 --- [librarymanagement] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [applicationContext.xml]: Invalid property 'bookRepository' of bean class [com.example.librarymanagement.Service.BookService]: Bean property 'bookRepository' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
-2026-07-04T10:10:26.133+05:30  INFO 88756 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-07-04T10:10:26.135+05:30  INFO 88756 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-07-04T10:10:26.145+05:30  INFO 88756 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-07-04T10:10:26.147+05:30  INFO 88756 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-07-04T10:10:26.157+05:30  INFO 88756 --- [librarymanagement] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2026-07-15T11:33:43.393+05:30  INFO 6181 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 17.0.19 with PID 6181 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-15T11:33:43.399+05:30  INFO 6181 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T11:33:43.801+05:30  WARN 6181 --- [librarymanagement] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'bookService'
+Offending resource: class path resource [applicationContext.xml]
+2026-07-15T11:33:43.805+05:30  INFO 6181 --- [librarymanagement] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-07-04T10:10:26.175+05:30 ERROR 88756 --- [librarymanagement] [main] o.s.boot.SpringApplication               : Application run failed
+2026-07-15T11:33:43.816+05:30 ERROR 6181 --- [librarymanagement] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [applicationContext.xml]: Invalid property 'bookRepository' of bean class [com.example.librarymanagement.Service.BookService]: Bean property 'bookRepository' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1745) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.8.jar:7.0.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
-	at com.example.librarymanagement.LibrarymanagementApplication.main(LibrarymanagementApplication.java:30) ~[classes/:na]
-Caused by: org.springframework.beans.NotWritablePropertyException: Invalid property 'bookRepository' of bean class [com.example.librarymanagement.Service.BookService]: Bean property 'bookRepository' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
-	at org.springframework.beans.BeanWrapperImpl.createNotWritablePropertyException(BeanWrapperImpl.java:206) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractNestablePropertyAccessor.processLocalProperty(AbstractNestablePropertyAccessor.java:426) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractNestablePropertyAccessor.setPropertyValue(AbstractNestablePropertyAccessor.java:275) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractNestablePropertyAccessor.setPropertyValue(AbstractNestablePropertyAccessor.java:263) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:104) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:79) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1742) ~[spring-beans-7.0.8.jar:7.0.8]
-	... 19 common frames omitted
+***************************
+APPLICATION FAILED TO START
+***************************
 
-2026-07-04T10:17:32.749+05:30  INFO 96403 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 21.0.11 with PID 96403 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
-2026-07-04T10:17:32.751+05:30  INFO 96403 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-07-04T10:17:33.399+05:30  INFO 96403 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-04T10:17:33.415+05:30  INFO 96403 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
-2026-07-04T10:17:33.734+05:30  INFO 96403 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-07-04T10:17:33.745+05:30  INFO 96403 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-07-04T10:17:33.745+05:30  INFO 96403 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-07-04T10:17:33.781+05:30  INFO 96403 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 990 ms
-2026-07-04T10:17:33.913+05:30  INFO 96403 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-07-04T10:17:33.952+05:30  INFO 96403 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-07-04T10:17:34.241+05:30  INFO 96403 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-04T10:17:34.268+05:30  INFO 96403 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-07-04T10:17:34.549+05:30  INFO 96403 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@85cd413
-2026-07-04T10:17:34.550+05:30  INFO 96403 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-07-04T10:17:34.608+05:30  INFO 96403 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:mysql://localhost:3306/librarydb?createDatabaseIfNotExist=true]
-	Database driver: MySQL Connector/J
-	Database dialect: MySQLDialect
-	Database version: 9.5
-	Default catalog/schema: librarydb/undefined
-	Autocommit mode: undefined/unknown
-	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
-	JDBC fetch size: none
-	Pool: DataSourceConnectionProvider
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-07-04T10:17:34.863+05:30  INFO 96403 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-04T10:17:34.897+05:30  INFO 96403 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-04T10:17:34.912+05:30  WARN 96403 --- [librarymanagement] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [applicationContext.xml]: Invalid property 'bookRepository' of bean class [com.example.librarymanagement.Service.BookService]: Bean property 'bookRepository' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
-2026-07-04T10:17:34.913+05:30  INFO 96403 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-07-04T10:17:34.915+05:30  INFO 96403 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-07-04T10:17:34.956+05:30  INFO 96403 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-07-04T10:17:34.958+05:30  INFO 96403 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-07-04T10:17:34.966+05:30  INFO 96403 --- [librarymanagement] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+Description:
+
+The bean 'bookService', defined in class path resource [applicationContext.xml], could not be registered. A bean with that name has already been defined in file [/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes/com/example/librarymanagement/Service/BookService.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2026-07-15T11:34:01.918+05:30  INFO 8670 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 17.0.19 with PID 8670 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-15T11:34:01.923+05:30  INFO 8670 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T11:34:02.274+05:30  WARN 8670 --- [librarymanagement] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: Failed to register bean definition with name 'bookService'
+Offending resource: class path resource [applicationContext.xml]
+2026-07-15T11:34:02.277+05:30  INFO 8670 --- [librarymanagement] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-07-04T10:17:34.979+05:30 ERROR 96403 --- [librarymanagement] [main] o.s.boot.SpringApplication               : Application run failed
+2026-07-15T11:34:02.287+05:30 ERROR 8670 --- [librarymanagement] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [applicationContext.xml]: Invalid property 'bookRepository' of bean class [com.example.librarymanagement.Service.BookService]: Bean property 'bookRepository' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1745) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.8.jar:7.0.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
-	at com.example.librarymanagement.LibrarymanagementApplication.main(LibrarymanagementApplication.java:30) ~[classes/:na]
-Caused by: org.springframework.beans.NotWritablePropertyException: Invalid property 'bookRepository' of bean class [com.example.librarymanagement.Service.BookService]: Bean property 'bookRepository' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
-	at org.springframework.beans.BeanWrapperImpl.createNotWritablePropertyException(BeanWrapperImpl.java:206) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractNestablePropertyAccessor.processLocalProperty(AbstractNestablePropertyAccessor.java:426) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractNestablePropertyAccessor.setPropertyValue(AbstractNestablePropertyAccessor.java:275) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractNestablePropertyAccessor.setPropertyValue(AbstractNestablePropertyAccessor.java:263) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:104) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:79) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1742) ~[spring-beans-7.0.8.jar:7.0.8]
-	... 19 common frames omitted
+***************************
+APPLICATION FAILED TO START
+***************************
 
-2026-07-04T10:18:52.332+05:30  INFO 98089 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 21.0.11 with PID 98089 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
-2026-07-04T10:18:52.338+05:30  INFO 98089 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-07-04T10:18:53.552+05:30  INFO 98089 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-04T10:18:53.605+05:30  INFO 98089 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 0 JPA repository interfaces.
-2026-07-04T10:18:54.302+05:30  INFO 98089 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-07-04T10:18:54.336+05:30  INFO 98089 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-07-04T10:18:54.339+05:30  INFO 98089 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-07-04T10:18:54.412+05:30  INFO 98089 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1990 ms
-2026-07-04T10:18:54.682+05:30  INFO 98089 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-07-04T10:18:54.752+05:30  INFO 98089 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-07-04T10:18:55.227+05:30  INFO 98089 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-04T10:18:55.264+05:30  INFO 98089 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-07-04T10:18:55.689+05:30  INFO 98089 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@85cd413
-2026-07-04T10:18:55.692+05:30  INFO 98089 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-07-04T10:18:55.812+05:30  INFO 98089 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+Description:
+
+The bean 'bookService', defined in class path resource [applicationContext.xml], could not be registered. A bean with that name has already been defined in file [/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes/com/example/librarymanagement/Service/BookService.class] and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+
+2026-07-15T11:34:38.987+05:30  INFO 9994 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 17.0.19 with PID 9994 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-15T11:34:38.990+05:30  INFO 9994 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T11:34:39.499+05:30  INFO 9994 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T11:34:39.530+05:30  INFO 9994 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2026-07-15T11:34:39.841+05:30  INFO 9994 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T11:34:39.851+05:30  INFO 9994 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T11:34:39.851+05:30  INFO 9994 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T11:34:39.930+05:30  INFO 9994 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 904 ms
+2026-07-15T11:34:40.053+05:30  INFO 9994 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T11:34:40.092+05:30  INFO 9994 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-15T11:34:40.346+05:30  INFO 9994 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T11:34:40.369+05:30  INFO 9994 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T11:34:40.652+05:30  INFO 9994 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34bf66af
+2026-07-15T11:34:40.653+05:30  INFO 9994 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T11:34:40.717+05:30  INFO 9994 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/librarydb?createDatabaseIfNotExist=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -162,64 +66,513 @@ Caused by: org.springframework.beans.NotWritablePropertyException: Invalid prope
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-07-04T10:18:56.205+05:30  INFO 98089 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-04T10:18:56.361+05:30  INFO 98089 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-04T10:18:56.380+05:30  WARN 98089 --- [librarymanagement] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [applicationContext.xml]: Invalid property 'bookRepository' of bean class [com.example.librarymanagement.Service.BookService]: Bean property 'bookRepository' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
-2026-07-04T10:18:56.381+05:30  INFO 98089 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-07-04T10:18:56.384+05:30  INFO 98089 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-07-04T10:18:56.390+05:30  INFO 98089 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-07-04T10:18:56.392+05:30  INFO 98089 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2026-07-04T10:18:56.403+05:30  INFO 98089 --- [librarymanagement] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+2026-07-15T11:34:41.228+05:30  INFO 9994 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T11:34:41.295+05:30  INFO 9994 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T11:34:41.356+05:30  INFO 9994 --- [librarymanagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-15T11:34:41.472+05:30  WARN 9994 --- [librarymanagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T11:34:41.786+05:30  INFO 9994 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T11:34:41.791+05:30  INFO 9994 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Started LibrarymanagementApplication in 3.103 seconds (process running for 3.392)
+2026-07-15T11:34:41.792+05:30  INFO 9994 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Main method executed
+2026-07-15T11:35:36.875+05:30  INFO 9994 --- [librarymanagement] [http-nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
 
-Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2026-07-04T10:18:56.415+05:30 ERROR 98089 --- [librarymanagement] [main] o.s.boot.SpringApplication               : Application run failed
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xf30x010x000x000xef0x030x03;%L0xdd0x7f0xd80xf10x0a/0xac0xbb0x900xc1+Te0xf60x0bn0x020x110x970x85_0xff0x92>O)0x93.0x93 ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:391) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:270) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'bookService' defined in class path resource [applicationContext.xml]: Invalid property 'bookRepository' of bean class [com.example.librarymanagement.Service.BookService]: Bean property 'bookRepository' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1745) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.8.jar:7.0.8]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
-	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
-	at com.example.librarymanagement.LibrarymanagementApplication.main(LibrarymanagementApplication.java:30) ~[classes/:na]
-Caused by: org.springframework.beans.NotWritablePropertyException: Invalid property 'bookRepository' of bean class [com.example.librarymanagement.Service.BookService]: Bean property 'bookRepository' is not writable or has an invalid setter method. Does the parameter type of the setter match the return type of the getter?
-	at org.springframework.beans.BeanWrapperImpl.createNotWritablePropertyException(BeanWrapperImpl.java:206) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractNestablePropertyAccessor.processLocalProperty(AbstractNestablePropertyAccessor.java:426) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractNestablePropertyAccessor.setPropertyValue(AbstractNestablePropertyAccessor.java:275) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractNestablePropertyAccessor.setPropertyValue(AbstractNestablePropertyAccessor.java:263) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:104) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.AbstractPropertyAccessor.setPropertyValues(AbstractPropertyAccessor.java:79) ~[spring-beans-7.0.8.jar:7.0.8]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1742) ~[spring-beans-7.0.8.jar:7.0.8]
-	... 19 common frames omitted
+2026-07-15T11:36:37.906+05:30  INFO 9994 --- [librarymanagement] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T11:36:37.907+05:30  INFO 9994 --- [librarymanagement] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T11:36:37.911+05:30  INFO 9994 --- [librarymanagement] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-07-15T11:40:27.597+05:30  WARN 9994 --- [librarymanagement] [http-nio-8080-exec-6] o.s.d.r.w.RepositoryRestExceptionHandler : Unexpected failure during request processing!
 
-2026-07-04T10:20:05.173+05:30  INFO 99757 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 21.0.11 with PID 99757 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
-2026-07-04T10:20:05.175+05:30  INFO 99757 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
-2026-07-04T10:20:05.742+05:30  INFO 99757 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-07-04T10:20:05.756+05:30  INFO 99757 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
-2026-07-04T10:20:06.040+05:30  INFO 99757 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2026-07-04T10:20:06.051+05:30  INFO 99757 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-07-04T10:20:06.051+05:30  INFO 99757 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
-2026-07-04T10:20:06.086+05:30  INFO 99757 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 872 ms
-2026-07-04T10:20:06.199+05:30  INFO 99757 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
-2026-07-04T10:20:06.242+05:30  INFO 99757 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
-2026-07-04T10:20:06.479+05:30  INFO 99757 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-07-04T10:20:06.500+05:30  INFO 99757 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-07-04T10:20:06.766+05:30  INFO 99757 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@85cd413
-2026-07-04T10:20:06.767+05:30  INFO 99757 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-07-04T10:20:06.825+05:30  INFO 99757 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [getAll]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:259) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindById(CrudRepositoryInvoker.java:80) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindById(UnwrappingRepositoryInvokerFactory.java:91) ~[spring-data-rest-core-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:517) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:319) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.lang.NumberFormatException: For input string: "getAll"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]
+	at java.base/java.lang.Integer.valueOf(Integer.java:999) ~[na:na]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:64) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:51) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:407) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.8.jar:7.0.8]
+	... 51 common frames omitted
+
+2026-07-15T11:40:50.110+05:30  WARN 9994 --- [librarymanagement] [http-nio-8080-exec-7] o.s.d.r.w.RepositoryRestExceptionHandler : Unexpected failure during request processing!
+
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [allBooks]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:259) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindById(CrudRepositoryInvoker.java:80) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindById(UnwrappingRepositoryInvokerFactory.java:91) ~[spring-data-rest-core-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:517) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:319) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.lang.NumberFormatException: For input string: "allBooks"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]
+	at java.base/java.lang.Integer.valueOf(Integer.java:999) ~[na:na]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:64) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:51) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:407) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.8.jar:7.0.8]
+	... 51 common frames omitted
+
+2026-07-15T11:41:02.007+05:30  WARN 9994 --- [librarymanagement] [http-nio-8080-exec-8] o.s.d.r.w.RepositoryRestExceptionHandler : Unexpected failure during request processing!
+
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [allBooks]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:259) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindById(CrudRepositoryInvoker.java:80) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindById(UnwrappingRepositoryInvokerFactory.java:91) ~[spring-data-rest-core-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:517) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:319) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.lang.NumberFormatException: For input string: "allBooks"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]
+	at java.base/java.lang.Integer.valueOf(Integer.java:999) ~[na:na]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:64) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:51) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:407) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.8.jar:7.0.8]
+	... 51 common frames omitted
+
+2026-07-15T11:41:04.338+05:30  WARN 9994 --- [librarymanagement] [http-nio-8080-exec-9] o.s.d.r.w.RepositoryRestExceptionHandler : Unexpected failure during request processing!
+
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [allBooks]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:259) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindById(CrudRepositoryInvoker.java:80) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindById(UnwrappingRepositoryInvokerFactory.java:91) ~[spring-data-rest-core-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:517) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:319) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.lang.NumberFormatException: For input string: "allBooks"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]
+	at java.base/java.lang.Integer.valueOf(Integer.java:999) ~[na:na]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:64) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:51) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:407) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.8.jar:7.0.8]
+	... 51 common frames omitted
+
+2026-07-15T11:41:04.770+05:30  WARN 9994 --- [librarymanagement] [http-nio-8080-exec-10] o.s.d.r.w.RepositoryRestExceptionHandler : Unexpected failure during request processing!
+
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [allBooks]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:259) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindById(CrudRepositoryInvoker.java:80) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindById(UnwrappingRepositoryInvokerFactory.java:91) ~[spring-data-rest-core-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:517) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:319) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.lang.NumberFormatException: For input string: "allBooks"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]
+	at java.base/java.lang.Integer.valueOf(Integer.java:999) ~[na:na]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:64) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:51) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:407) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.8.jar:7.0.8]
+	... 51 common frames omitted
+
+2026-07-15T11:41:04.938+05:30  WARN 9994 --- [librarymanagement] [http-nio-8080-exec-1] o.s.d.r.w.RepositoryRestExceptionHandler : Unexpected failure during request processing!
+
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [allBooks]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:259) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindById(CrudRepositoryInvoker.java:80) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindById(UnwrappingRepositoryInvokerFactory.java:91) ~[spring-data-rest-core-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:517) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:319) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.lang.NumberFormatException: For input string: "allBooks"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]
+	at java.base/java.lang.Integer.valueOf(Integer.java:999) ~[na:na]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:64) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:51) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:407) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.8.jar:7.0.8]
+	... 51 common frames omitted
+
+2026-07-15T11:41:05.199+05:30  WARN 9994 --- [librarymanagement] [http-nio-8080-exec-2] o.s.d.r.w.RepositoryRestExceptionHandler : Unexpected failure during request processing!
+
+org.springframework.core.convert.ConversionFailedException: Failed to convert from type [java.lang.String] to type [java.lang.Integer] for value [allBooks]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:47) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService.convert(GenericConversionService.java:181) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.data.repository.support.ReflectionRepositoryInvoker.convertId(ReflectionRepositoryInvoker.java:259) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.repository.support.CrudRepositoryInvoker.invokeFindById(CrudRepositoryInvoker.java:80) ~[spring-data-commons-4.1.0.jar:4.1.0]
+	at org.springframework.data.rest.core.support.UnwrappingRepositoryInvokerFactory$UnwrappingRepositoryInvoker.invokeFindById(UnwrappingRepositoryInvokerFactory.java:91) ~[spring-data-rest-core-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:517) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at org.springframework.data.rest.webmvc.RepositoryEntityController.getItemResource(RepositoryEntityController.java:319) ~[spring-data-rest-webmvc-5.1.0.jar:5.1.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:892) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.8.jar:7.0.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.22.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.8.jar:7.0.8]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57) ~[tomcat-embed-core-11.0.22.jar:11.0.22]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.lang.NumberFormatException: For input string: "allBooks"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67) ~[na:na]
+	at java.base/java.lang.Integer.parseInt(Integer.java:668) ~[na:na]
+	at java.base/java.lang.Integer.valueOf(Integer.java:999) ~[na:na]
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:201) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:64) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.StringToNumberConverterFactory$StringToNumber.convert(StringToNumberConverterFactory.java:51) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.GenericConversionService$ConverterFactoryAdapter.convert(GenericConversionService.java:407) ~[spring-core-7.0.8.jar:7.0.8]
+	at org.springframework.core.convert.support.ConversionUtils.invokeConverter(ConversionUtils.java:41) ~[spring-core-7.0.8.jar:7.0.8]
+	... 51 common frames omitted
+
+2026-07-15T11:41:14.046+05:30  INFO 9994 --- [librarymanagement] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T11:41:14.051+05:30  INFO 9994 --- [librarymanagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T11:41:14.053+05:30  INFO 9994 --- [librarymanagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T11:41:14.055+05:30  INFO 9994 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-15T11:41:14.059+05:30  INFO 9994 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-15T11:41:15.167+05:30  INFO 18626 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 17.0.19 with PID 18626 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-15T11:41:15.169+05:30  INFO 18626 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T11:41:15.836+05:30  INFO 18626 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T11:41:15.890+05:30  INFO 18626 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2026-07-15T11:41:16.413+05:30  INFO 18626 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T11:41:16.428+05:30  INFO 18626 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T11:41:16.428+05:30  INFO 18626 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T11:41:16.487+05:30  INFO 18626 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1281 ms
+2026-07-15T11:41:16.694+05:30  INFO 18626 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T11:41:16.765+05:30  INFO 18626 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-15T11:41:17.199+05:30  INFO 18626 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T11:41:17.252+05:30  INFO 18626 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T11:41:17.524+05:30  INFO 18626 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e194966
+2026-07-15T11:41:17.525+05:30  INFO 18626 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T11:41:17.587+05:30  INFO 18626 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [jdbc:mysql://localhost:3306/librarydb?createDatabaseIfNotExist=true]
 	Database driver: MySQL Connector/J
 	Database dialect: MySQLDialect
@@ -231,14 +584,177 @@ Caused by: org.springframework.beans.NotWritablePropertyException: Invalid prope
 	Pool: DataSourceConnectionProvider
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-07-04T10:20:07.067+05:30  INFO 99757 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-07-04T10:20:07.102+05:30  INFO 99757 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-07-04T10:20:07.193+05:30  WARN 99757 --- [librarymanagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-07-04T10:20:07.558+05:30  INFO 99757 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2026-07-04T10:20:07.563+05:30  INFO 99757 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Started LibrarymanagementApplication in 2.693 seconds (process running for 2.94)
-2026-07-04T10:20:07.565+05:30  INFO 99757 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Main method executed
-2026-07-04T10:20:44.440+05:30  INFO 99757 --- [librarymanagement] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2026-07-04T10:20:44.447+05:30  INFO 99757 --- [librarymanagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2026-07-04T10:20:44.451+05:30  INFO 99757 --- [librarymanagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-07-04T10:20:44.453+05:30  INFO 99757 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-07-04T10:20:44.457+05:30  INFO 99757 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-15T11:41:18.266+05:30  INFO 18626 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T11:41:18.310+05:30  INFO 18626 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T11:41:18.372+05:30  INFO 18626 --- [librarymanagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-15T11:41:18.525+05:30  WARN 18626 --- [librarymanagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T11:41:19.000+05:30  INFO 18626 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T11:41:19.006+05:30  INFO 18626 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Started LibrarymanagementApplication in 4.143 seconds (process running for 4.381)
+2026-07-15T11:41:19.009+05:30  INFO 18626 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Main method executed
+2026-07-15T11:41:39.924+05:30  INFO 18626 --- [librarymanagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T11:41:39.925+05:30  INFO 18626 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T11:41:39.926+05:30  INFO 18626 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T11:42:12.038+05:30  INFO 18626 --- [librarymanagement] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T11:42:12.042+05:30  INFO 18626 --- [librarymanagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T11:42:12.045+05:30  INFO 18626 --- [librarymanagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T11:42:12.047+05:30  INFO 18626 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-15T11:42:12.051+05:30  INFO 18626 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-15T11:46:19.382+05:30  INFO 25317 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 17.0.19 with PID 25317 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-15T11:46:19.384+05:30  INFO 25317 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T11:46:19.868+05:30  INFO 25317 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T11:46:19.899+05:30  INFO 25317 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
+2026-07-15T11:46:20.245+05:30  INFO 25317 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T11:46:20.258+05:30  INFO 25317 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T11:46:20.258+05:30  INFO 25317 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T11:46:20.306+05:30  INFO 25317 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 890 ms
+2026-07-15T11:46:20.466+05:30  INFO 25317 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T11:46:20.508+05:30  INFO 25317 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-15T11:46:20.790+05:30  INFO 25317 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T11:46:20.816+05:30  INFO 25317 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T11:46:21.080+05:30  INFO 25317 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@395eb363
+2026-07-15T11:46:21.082+05:30  INFO 25317 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T11:46:21.143+05:30  INFO 25317 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/librarydb?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: librarydb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T11:46:21.721+05:30  INFO 25317 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T11:46:21.766+05:30  INFO 25317 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T11:46:21.825+05:30  INFO 25317 --- [librarymanagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-15T11:46:21.964+05:30  WARN 25317 --- [librarymanagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T11:46:22.379+05:30  INFO 25317 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T11:46:22.384+05:30  INFO 25317 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Started LibrarymanagementApplication in 3.328 seconds (process running for 3.615)
+2026-07-15T11:46:22.386+05:30  INFO 25317 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Main method executed
+2026-07-15T11:47:12.328+05:30  INFO 25317 --- [librarymanagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T11:47:12.328+05:30  INFO 25317 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T11:47:12.331+05:30  INFO 25317 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-07-15T11:51:10.791+05:30  INFO 25317 --- [librarymanagement] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T11:51:10.798+05:30  INFO 25317 --- [librarymanagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T11:51:10.801+05:30  INFO 25317 --- [librarymanagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T11:51:10.804+05:30  INFO 25317 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-15T11:51:10.810+05:30  INFO 25317 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-15T11:51:11.945+05:30  INFO 31753 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 17.0.19 with PID 31753 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-15T11:51:11.951+05:30  INFO 31753 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T11:51:12.625+05:30  INFO 31753 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T11:51:12.660+05:30  INFO 31753 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2026-07-15T11:51:13.021+05:30  INFO 31753 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T11:51:13.035+05:30  INFO 31753 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T11:51:13.035+05:30  INFO 31753 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T11:51:13.088+05:30  INFO 31753 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1083 ms
+2026-07-15T11:51:13.234+05:30  INFO 31753 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T11:51:13.274+05:30  INFO 31753 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-15T11:51:13.542+05:30  INFO 31753 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T11:51:13.563+05:30  INFO 31753 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T11:51:13.793+05:30  INFO 31753 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e194966
+2026-07-15T11:51:13.794+05:30  INFO 31753 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T11:51:13.851+05:30  INFO 31753 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/librarydb?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: librarydb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T11:51:14.333+05:30  INFO 31753 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T11:51:14.371+05:30  INFO 31753 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T11:51:14.423+05:30  INFO 31753 --- [librarymanagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-15T11:51:14.569+05:30  WARN 31753 --- [librarymanagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T11:51:15.050+05:30  INFO 31753 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T11:51:15.055+05:30  INFO 31753 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Started LibrarymanagementApplication in 3.438 seconds (process running for 3.672)
+2026-07-15T11:51:15.058+05:30  INFO 31753 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Main method executed
+2026-07-15T11:51:46.995+05:30  INFO 31753 --- [librarymanagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T11:51:46.995+05:30  INFO 31753 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T11:51:46.996+05:30  INFO 31753 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-15T11:56:31.285+05:30  INFO 31753 --- [librarymanagement] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T11:56:31.290+05:30  INFO 31753 --- [librarymanagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T11:56:31.293+05:30  INFO 31753 --- [librarymanagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T11:56:31.295+05:30  INFO 31753 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-15T11:56:31.298+05:30  INFO 31753 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-15T11:56:32.404+05:30  INFO 38594 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 17.0.19 with PID 38594 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-15T11:56:32.406+05:30  INFO 38594 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T11:56:32.811+05:30  INFO 38594 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T11:56:32.839+05:30  INFO 38594 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2026-07-15T11:56:33.093+05:30  INFO 38594 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T11:56:33.102+05:30  INFO 38594 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T11:56:33.102+05:30  INFO 38594 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T11:56:33.136+05:30  INFO 38594 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 698 ms
+2026-07-15T11:56:33.241+05:30  INFO 38594 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T11:56:33.272+05:30  INFO 38594 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-15T11:56:33.523+05:30  INFO 38594 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T11:56:33.543+05:30  INFO 38594 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T11:56:33.781+05:30  INFO 38594 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32646ecf
+2026-07-15T11:56:33.782+05:30  INFO 38594 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T11:56:33.885+05:30  INFO 38594 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/librarydb?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: librarydb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T11:56:34.427+05:30  INFO 38594 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T11:56:34.464+05:30  INFO 38594 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T11:56:34.520+05:30  INFO 38594 --- [librarymanagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-15T11:56:34.657+05:30  WARN 38594 --- [librarymanagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T11:56:35.039+05:30  INFO 38594 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T11:56:35.046+05:30  INFO 38594 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Started LibrarymanagementApplication in 2.93 seconds (process running for 3.166)
+2026-07-15T11:56:35.048+05:30  INFO 38594 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Main method executed
+2026-07-15T11:56:47.960+05:30  INFO 38594 --- [librarymanagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T11:56:47.960+05:30  INFO 38594 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T11:56:47.962+05:30  INFO 38594 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-07-15T12:08:13.240+05:30  INFO 38594 --- [librarymanagement] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T12:08:13.254+05:30  INFO 38594 --- [librarymanagement] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T12:08:13.258+05:30  INFO 38594 --- [librarymanagement] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T12:08:13.261+05:30  INFO 38594 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-15T12:08:13.265+05:30  INFO 38594 --- [librarymanagement] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-15T12:08:14.492+05:30  INFO 53737 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Starting LibrarymanagementApplication using Java 17.0.19 with PID 53737 (/Users/sanjana/Desktop/College/Cognizant/Maven(Module5)/librarymanagement/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-15T12:08:14.494+05:30  INFO 53737 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T12:08:15.267+05:30  INFO 53737 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T12:08:15.329+05:30  INFO 53737 --- [librarymanagement] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-07-15T12:08:15.901+05:30  INFO 53737 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T12:08:15.916+05:30  INFO 53737 --- [librarymanagement] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T12:08:15.917+05:30  INFO 53737 --- [librarymanagement] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T12:08:15.974+05:30  INFO 53737 --- [librarymanagement] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1437 ms
+2026-07-15T12:08:16.165+05:30  INFO 53737 --- [librarymanagement] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T12:08:16.217+05:30  INFO 53737 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-15T12:08:16.563+05:30  INFO 53737 --- [librarymanagement] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T12:08:16.594+05:30  INFO 53737 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T12:08:16.910+05:30  INFO 53737 --- [librarymanagement] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@270b8c2a
+2026-07-15T12:08:16.911+05:30  INFO 53737 --- [librarymanagement] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T12:08:16.970+05:30  INFO 53737 --- [librarymanagement] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/librarydb?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: librarydb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T12:08:17.585+05:30  INFO 53737 --- [librarymanagement] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T12:08:17.639+05:30  INFO 53737 --- [librarymanagement] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T12:08:17.711+05:30  INFO 53737 --- [librarymanagement] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-07-15T12:08:17.893+05:30  WARN 53737 --- [librarymanagement] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T12:08:18.372+05:30  INFO 53737 --- [librarymanagement] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T12:08:18.380+05:30  INFO 53737 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Started LibrarymanagementApplication in 4.241 seconds (process running for 4.496)
+2026-07-15T12:08:18.383+05:30  INFO 53737 --- [librarymanagement] [main] c.e.l.LibrarymanagementApplication       : Main method executed
+2026-07-15T12:08:47.563+05:30  INFO 53737 --- [librarymanagement] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-15T12:08:47.563+05:30  INFO 53737 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-15T12:08:47.565+05:30  INFO 53737 --- [librarymanagement] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

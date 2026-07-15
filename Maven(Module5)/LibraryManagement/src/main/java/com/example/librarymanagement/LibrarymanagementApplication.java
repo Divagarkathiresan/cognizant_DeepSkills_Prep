@@ -11,21 +11,21 @@ import org.springframework.context.annotation.ImportResource;
 import com.example.librarymanagement.Service.BookService;
 
 @SpringBootApplication
-@ImportResource("classpath:applicationContext.xml")
-public class LibrarymanagementApplication implements CommandLineRunner{
+// @ImportResource("classpath:applicationContext.xml")
+public class LibrarymanagementApplication{
 	private static final Logger logger=LoggerFactory.getLogger(LibrarymanagementApplication.class);
 
-	private ApplicationContext context;
+	// private ApplicationContext context;
 
-    public LibrarymanagementApplication(ApplicationContext context) {
-        this.context = context;
-    }
+    // public LibrarymanagementApplication(ApplicationContext context) {
+    //     this.context = context;
+    // }
 
-    @Override
-    public void run(String... args) {
-        BookService service = context.getBean("bookService", BookService.class);
-        service.show();
-    }
+    // @Override
+    // public void run(String... args) {
+    //     BookService service = context.getBean("bookService", BookService.class);
+    //     service.show();
+    // }
 	public static void main(String[] args) {
 		SpringApplication.run(LibrarymanagementApplication.class, args);
 		logger.info("Main method executed");

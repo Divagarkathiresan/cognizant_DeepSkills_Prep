@@ -1,8 +1,7 @@
 package com.example.librarymanagement.Repository;
+import com.example.librarymanagement.Models.Book;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-
-public class BookRepository{
-    public void show(){
-        System.out.println("Book Repository created");
-    }
+public interface BookRepository extends JpaRepository<Book, Integer> {
+    
 }
