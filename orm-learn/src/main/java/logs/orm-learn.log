@@ -953,3 +953,389 @@ Identify and stop the process that's listening on port 8080 or configure this ap
 2026-07-15T22:06:48.217+05:30  INFO 56203 --- [orm-learn] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-07-15T22:06:48.217+05:30  INFO 56203 --- [orm-learn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
 2026-07-15T22:06:48.221+05:30  INFO 56203 --- [orm-learn] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2026-07-15T22:23:30.405+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:23:30.409+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:23:30.410+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:23:30.518+05:30  INFO 72191 --- [orm-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-15T22:23:30.520+05:30  INFO 72191 --- [orm-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-15T22:23:31.767+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:23:31.817+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:23:32.694+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:23:32.713+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:23:32.713+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:23:32.768+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2247 ms
+2026-07-15T22:23:33.114+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:23:33.196+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.1.Final
+2026-07-15T22:23:33.776+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:23:33.827+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T22:23:34.361+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36ddefbe
+2026-07-15T22:23:34.365+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T22:23:34.456+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:23:34.788+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:23:34.819+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:23:35.008+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:23:35.920+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:23:35.941+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 6.35 seconds (process running for 7.186)
+2026-07-15T22:23:35.949+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
+2026-07-15T22:23:44.365+05:30  INFO 72191 --- [orm-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T22:23:44.387+05:30  INFO 72191 --- [orm-learn] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T22:23:44.398+05:30  INFO 72191 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T22:23:44.406+05:30  INFO 72191 --- [orm-learn] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:23:44.413+05:30  INFO 72191 --- [orm-learn] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-15T22:23:44.434+05:30  INFO 72191 --- [orm-learn] [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-15T22:23:44.852+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:23:44.854+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:23:44.855+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:23:45.278+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:23:45.288+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:23:45.485+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:23:45.490+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:23:45.492+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:23:45.513+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 638 ms
+2026-07-15T22:23:45.601+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:23:45.650+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:23:45.651+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-07-15T22:23:45.725+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5931b3b7
+2026-07-15T22:23:45.727+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-07-15T22:23:45.733+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:23:45.766+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:23:45.768+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:23:45.857+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:23:46.057+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:23:46.064+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 1.419 seconds (process running for 17.31)
+2026-07-15T22:23:46.090+05:30  INFO 72191 --- [orm-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T22:23:46.091+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
+2026-07-15T22:23:57.579+05:30  INFO 72191 --- [orm-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T22:23:57.585+05:30  INFO 72191 --- [orm-learn] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T22:23:57.593+05:30  INFO 72191 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T22:23:57.597+05:30  INFO 72191 --- [orm-learn] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:23:57.598+05:30  INFO 72191 --- [orm-learn] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-07-15T22:23:57.609+05:30  INFO 72191 --- [orm-learn] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-07-15T22:23:58.007+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:23:58.010+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:23:58.010+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:23:58.376+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:23:58.388+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:23:58.571+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:23:58.575+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:23:58.576+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:23:58.597+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 563 ms
+2026-07-15T22:23:58.676+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:23:58.724+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:23:58.726+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-07-15T22:23:58.820+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ba9b606
+2026-07-15T22:23:58.821+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-07-15T22:23:58.825+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:23:58.855+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:23:58.857+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:23:58.940+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:23:59.115+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:23:59.122+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 1.319 seconds (process running for 30.367)
+2026-07-15T22:23:59.125+05:30  INFO 72191 --- [orm-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T22:23:59.126+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
+2026-07-15T22:24:05.572+05:30  INFO 72191 --- [orm-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T22:24:05.578+05:30  INFO 72191 --- [orm-learn] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T22:24:05.584+05:30  INFO 72191 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T22:24:05.590+05:30  INFO 72191 --- [orm-learn] [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:05.591+05:30  INFO 72191 --- [orm-learn] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-07-15T22:24:05.597+05:30  INFO 72191 --- [orm-learn] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-07-15T22:24:06.018+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:24:06.021+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:24:06.022+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:24:06.351+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:24:06.362+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:24:06.517+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:24:06.520+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:24:06.521+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:24:06.542+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 496 ms
+2026-07-15T22:24:06.601+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:24:06.641+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:24:06.644+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2026-07-15T22:24:06.740+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@114e7110
+2026-07-15T22:24:06.741+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2026-07-15T22:24:06.748+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:24:06.811+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:24:06.813+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:06.883+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:24:07.009+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:24:07.013+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 1.231 seconds (process running for 38.259)
+2026-07-15T22:24:07.016+05:30  INFO 72191 --- [orm-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T22:24:07.016+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
+2026-07-15T22:24:10.470+05:30  INFO 72191 --- [orm-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T22:24:10.474+05:30  INFO 72191 --- [orm-learn] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T22:24:10.478+05:30  INFO 72191 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T22:24:10.486+05:30  INFO 72191 --- [orm-learn] [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:10.488+05:30  INFO 72191 --- [orm-learn] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2026-07-15T22:24:10.494+05:30  INFO 72191 --- [orm-learn] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2026-07-15T22:24:10.889+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:24:10.893+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:24:10.894+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:24:11.189+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:24:11.199+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:24:11.348+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:24:11.352+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:24:11.353+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:24:11.374+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 459 ms
+2026-07-15T22:24:11.420+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:24:11.462+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:24:11.465+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2026-07-15T22:24:11.568+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cc0a6ac
+2026-07-15T22:24:11.570+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2026-07-15T22:24:11.578+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:24:11.608+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:24:11.612+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:11.667+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:24:11.781+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:24:11.786+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 1.11 seconds (process running for 43.032)
+2026-07-15T22:24:11.788+05:30  INFO 72191 --- [orm-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T22:24:11.789+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
+2026-07-15T22:24:16.235+05:30  INFO 72191 --- [orm-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T22:24:16.241+05:30  INFO 72191 --- [orm-learn] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T22:24:16.246+05:30  INFO 72191 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T22:24:16.251+05:30  INFO 72191 --- [orm-learn] [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:16.252+05:30  INFO 72191 --- [orm-learn] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2026-07-15T22:24:16.256+05:30  INFO 72191 --- [orm-learn] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-07-15T22:24:16.697+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:24:16.704+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:24:16.705+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:24:16.996+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:24:17.004+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:24:17.144+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:24:17.149+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:24:17.149+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:24:17.167+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 437 ms
+2026-07-15T22:24:17.213+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:24:17.292+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:24:17.294+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2026-07-15T22:24:17.407+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20418785
+2026-07-15T22:24:17.408+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2026-07-15T22:24:17.413+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:24:17.443+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:24:17.445+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:17.499+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:24:17.607+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:24:17.611+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 1.156 seconds (process running for 48.857)
+2026-07-15T22:24:17.614+05:30  INFO 72191 --- [orm-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T22:24:17.616+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
+2026-07-15T22:24:26.102+05:30  INFO 72191 --- [orm-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T22:24:26.108+05:30  INFO 72191 --- [orm-learn] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T22:24:26.113+05:30  INFO 72191 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T22:24:26.123+05:30  INFO 72191 --- [orm-learn] [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:26.127+05:30  INFO 72191 --- [orm-learn] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2026-07-15T22:24:26.143+05:30  INFO 72191 --- [orm-learn] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2026-07-15T22:24:26.634+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:24:26.640+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:24:26.641+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:24:26.932+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:24:26.942+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:24:27.078+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:24:27.083+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:24:27.083+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:24:27.107+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 438 ms
+2026-07-15T22:24:27.158+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:24:27.239+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:24:27.241+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2026-07-15T22:24:27.364+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37bbd877
+2026-07-15T22:24:27.364+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2026-07-15T22:24:27.371+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:24:27.406+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:24:27.408+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:27.455+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:24:27.565+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:24:27.570+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 1.21 seconds (process running for 58.816)
+2026-07-15T22:24:27.573+05:30  INFO 72191 --- [orm-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T22:24:27.574+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
+2026-07-15T22:24:28.990+05:30  INFO 72191 --- [orm-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T22:24:28.996+05:30  INFO 72191 --- [orm-learn] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T22:24:29.001+05:30  INFO 72191 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T22:24:29.006+05:30  INFO 72191 --- [orm-learn] [Thread-25] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:29.008+05:30  INFO 72191 --- [orm-learn] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2026-07-15T22:24:29.012+05:30  INFO 72191 --- [orm-learn] [Thread-25] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2026-07-15T22:24:29.436+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:24:29.442+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:24:29.443+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:24:29.729+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:24:29.738+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:24:29.871+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:24:29.877+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:24:29.878+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:24:29.896+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 432 ms
+2026-07-15T22:24:29.942+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:24:29.991+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:24:29.992+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2026-07-15T22:24:30.116+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7147a6a5
+2026-07-15T22:24:30.117+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2026-07-15T22:24:30.123+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:24:30.163+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:24:30.164+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:30.213+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:24:30.312+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:24:30.318+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 1.11 seconds (process running for 61.563)
+2026-07-15T22:24:30.321+05:30  INFO 72191 --- [orm-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T22:24:30.322+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
+2026-07-15T22:24:47.889+05:30  INFO 72191 --- [orm-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T22:24:47.892+05:30  INFO 72191 --- [orm-learn] [Thread-29] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T22:24:47.896+05:30  INFO 72191 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T22:24:47.901+05:30  INFO 72191 --- [orm-learn] [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:47.902+05:30  INFO 72191 --- [orm-learn] [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2026-07-15T22:24:47.907+05:30  INFO 72191 --- [orm-learn] [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2026-07-15T22:24:48.333+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:24:48.341+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:24:48.342+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:24:48.639+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:24:48.650+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:24:48.790+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:24:48.795+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:24:48.796+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:24:48.814+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 449 ms
+2026-07-15T22:24:48.858+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:24:48.907+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:24:48.909+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2026-07-15T22:24:49.040+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51b1c57f
+2026-07-15T22:24:49.041+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2026-07-15T22:24:49.047+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:24:49.080+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:24:49.083+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:49.145+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:24:49.252+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:24:49.256+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 1.157 seconds (process running for 80.502)
+2026-07-15T22:24:49.259+05:30  INFO 72191 --- [orm-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T22:24:49.259+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
+2026-07-15T22:24:50.665+05:30  INFO 72191 --- [orm-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-15T22:24:50.671+05:30  INFO 72191 --- [orm-learn] [Thread-33] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-15T22:24:50.677+05:30  INFO 72191 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-15T22:24:50.682+05:30  INFO 72191 --- [orm-learn] [Thread-33] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:50.684+05:30  INFO 72191 --- [orm-learn] [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2026-07-15T22:24:50.690+05:30  INFO 72191 --- [orm-learn] [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2026-07-15T22:24:51.117+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Starting OrmLearnApplication using Java 21.0.11 with PID 72191 (/Users/sanjana/Desktop/College/Cognizant/orm-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/orm-learn)
+2026-07-15T22:24:51.124+05:30 DEBUG 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-15T22:24:51.125+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T22:24:51.443+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-07-15T22:24:51.454+05:30  INFO 72191 --- [orm-learn] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2026-07-15T22:24:51.587+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-15T22:24:51.592+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-15T22:24:51.593+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-15T22:24:51.610+05:30  INFO 72191 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 457 ms
+2026-07-15T22:24:51.661+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-07-15T22:24:51.742+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-07-15T22:24:51.744+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2026-07-15T22:24:51.881+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48bdf1ee
+2026-07-15T22:24:51.882+05:30  INFO 72191 --- [orm-learn] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2026-07-15T22:24:51.888+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/ormlearn?createDatabaseIfNotExist=true]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.5
+	Default catalog/schema: ormlearn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-07-15T22:24:51.925+05:30  INFO 72191 --- [orm-learn] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-07-15T22:24:51.926+05:30  INFO 72191 --- [orm-learn] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-07-15T22:24:51.982+05:30  WARN 72191 --- [orm-learn] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-07-15T22:24:52.089+05:30  INFO 72191 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-15T22:24:52.096+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Started OrmLearnApplication in 1.219 seconds (process running for 83.342)
+2026-07-15T22:24:52.098+05:30  INFO 72191 --- [orm-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-15T22:24:52.099+05:30  INFO 72191 --- [orm-learn] [restartedMain] c.c.orm_learn.OrmLearnApplication        : Main method executed sucessfully !! 
