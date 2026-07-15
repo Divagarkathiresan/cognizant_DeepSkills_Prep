@@ -94,8 +94,8 @@ public class EmployeeSpringTestFrameWork{
     @Test
     //checked for update
     public void shouldUpdateAnEmployeeById() throws Exception{
-        Employee oldEmployee=new Employee(1,"Alex","IT");
-        Employee newEmployee=new Employee(1,"Diva","CSD");
+        Employee oldEmployee=new Employee(1,"Alex","TCS");
+        Employee newEmployee=new Employee(1,"Diva","CloudVice");
         when(employeeService.getEmployeeById(1)).thenReturn(oldEmployee);
         when(employeeService.updateEmployeeById(anyInt(),any(Employee.class))).thenReturn(newEmployee);
 
