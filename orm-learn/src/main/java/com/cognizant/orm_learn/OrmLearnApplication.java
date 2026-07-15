@@ -13,10 +13,9 @@ public class OrmLearnApplication {
 	public static final Logger logger = LoggerFactory.getLogger(OrmLearnApplication.class);
 	
 	public static void main(String[] args) {
-		
 		SpringApplication.run(OrmLearnApplication.class, args);
 		System.out.println("Main method executed");
-		logger.info("Main method executed");
+		logger.info("Main method executed sucessfully !! ");
 	}
 
 }
