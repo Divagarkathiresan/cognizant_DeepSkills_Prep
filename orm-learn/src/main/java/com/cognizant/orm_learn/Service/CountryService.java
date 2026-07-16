@@ -20,4 +20,8 @@ public class CountryService {
 	public List<Country> getAll(){
 		return countryRepo.findAll();
 	}
+	
+	public Country getByCode(String code) {
+		return countryRepo.findByCode(code);
+	}
 }
