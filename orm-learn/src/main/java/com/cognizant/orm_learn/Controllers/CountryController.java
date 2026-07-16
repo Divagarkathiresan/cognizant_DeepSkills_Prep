@@ -9,9 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.cognizant.orm_learn.Service.CountryService;
 import com.cognizant.orm_learn.Models.Country;
 
-import java.util.*;
-
-
 @RestController
 @RequestMapping("/Country")
 public class CountryController{
