@@ -13,13 +13,13 @@ public class EmployeeSkill {
 	private Integer es_id;
 	
 	@ManyToOne
-	@JoinColumn(name="employee_id")
-	@JsonBackReference
+	@JoinColumn(name = "employee_id")
+	@JsonBackReference("employee-skill")
 	private Employee employee;
-	
+
 	@ManyToOne
-	@JoinColumn(name="skill_id")
-	@JsonBackReference
+	@JoinColumn(name = "skill_id")
+	@JsonBackReference("skill-employeeSkill")
 	private Skill skill;
 	
 	
@@ -29,21 +29,26 @@ public class EmployeeSkill {
 		this.skill = skill;
 	}
 
+
 	public Integer getEs_id() {
 		return es_id;
 	}
 
+
 	public void setEs_id(Integer es_id) {
 		this.es_id = es_id;
 	}
-	
+
+
 	public Employee getEmployee() {
 		return employee;
 	}
 
+
 	public void setEmployee(Employee employee) {
 		this.employee = employee;
 	}
+
 
 	public Skill getSkill() {
 		return skill;
@@ -53,6 +58,7 @@ public class EmployeeSkill {
 	public void setSkill(Skill skill) {
 		this.skill = skill;
 	}
+
 
 	public EmployeeSkill() {
 		
