@@ -1,4 +1,4 @@
--- create or replace function generate_id
+ -- create or replace function generate_id
 -- return number 
 -- as 
 -- max_id number;

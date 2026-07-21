@@ -1,0 +1,26 @@
+2026-07-21T20:59:38.793+05:30  INFO 34230 --- [orm-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 21.0.11 with PID 34230 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn)
+2026-07-21T20:59:38.800+05:30 DEBUG 34230 --- [orm-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-21T20:59:38.802+05:30  INFO 34230 --- [orm-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-21T20:59:39.021+05:30  INFO 34230 --- [orm-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-21T20:59:39.023+05:30  INFO 34230 --- [orm-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-21T20:59:41.511+05:30  INFO 34230 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-21T20:59:41.535+05:30  INFO 34230 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-21T20:59:41.537+05:30  INFO 34230 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-21T20:59:41.582+05:30  INFO 34230 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2556 ms
+2026-07-21T20:59:42.448+05:30  INFO 34230 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-21T20:59:42.482+05:30  INFO 34230 --- [orm-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 4.905 seconds (process running for 6.466)
+2026-07-21T21:00:13.879+05:30  INFO 34230 --- [orm-learn] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-21T21:00:13.900+05:30  INFO 34230 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-21T21:00:52.527+05:30  INFO 35048 --- [orm-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 21.0.11 with PID 35048 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn)
+2026-07-21T21:00:52.531+05:30 DEBUG 35048 --- [orm-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-21T21:00:52.535+05:30  INFO 35048 --- [orm-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-21T21:00:52.777+05:30  INFO 35048 --- [orm-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-21T21:00:52.780+05:30  INFO 35048 --- [orm-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-21T21:00:54.968+05:30  INFO 35048 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-07-21T21:00:54.997+05:30  INFO 35048 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-21T21:00:54.998+05:30  INFO 35048 --- [orm-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-21T21:00:55.049+05:30  INFO 35048 --- [orm-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2265 ms
+2026-07-21T21:00:55.884+05:30  INFO 35048 --- [orm-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-07-21T21:00:55.912+05:30  INFO 35048 --- [orm-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 4.554 seconds (process running for 5.73)
+2026-07-21T21:01:00.643+05:30  INFO 35048 --- [orm-learn] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-21T21:01:00.661+05:30  INFO 35048 --- [orm-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
