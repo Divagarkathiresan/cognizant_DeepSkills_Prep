@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.cognizant.spring_learn.Models.AuthenticationRequest;
 import com.cognizant.spring_learn.Models.AuthenticationResponse;
-import com.cognizant.spring_learn.utils.JwtUtil;
+import com.cognizant.spring_learn.util.JwtUtil;
 
 @RestController
 public class AuthenticationController {

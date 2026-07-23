@@ -1,4 +1,4 @@
-package com.cognizant.spring_learn.utils;
+package com.cognizant.spring_learn.util;
 
 import java.util.Date;
 
