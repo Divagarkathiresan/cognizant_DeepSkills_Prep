@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringLearnApplication<spring-learn>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.cognizant.spring_learn.SpringLearnApplication",
+            "projectName": "spring-learn",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
