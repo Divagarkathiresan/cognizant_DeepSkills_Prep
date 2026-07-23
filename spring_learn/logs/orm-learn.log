@@ -36,3 +36,579 @@ Check the configured web application type.
 2026-07-23T17:59:46.722+05:30  INFO 8652 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
 2026-07-23T18:00:09.201+05:30  INFO 8652 --- [spring-learn] [http-nio-8083-exec-1] c.c.s.Controllers.CountryController      : START - sayHello()
 2026-07-23T18:00:09.202+05:30  INFO 8652 --- [spring-learn] [http-nio-8083-exec-1] c.c.s.Controllers.CountryController      : END - sayHello()
+2026-07-23T18:04:37.040+05:30  INFO 8652 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:04:37.043+05:30  INFO 8652 --- [spring-learn] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:04:37.054+05:30  INFO 8652 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:04:37.122+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 8652 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:04:37.123+05:30 DEBUG 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:04:37.123+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:04:37.307+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:04:37.307+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:04:37.308+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:04:37.314+05:30  INFO 8652 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 187 ms
+2026-07-23T18:04:37.398+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:04:37.409+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:04:37.412+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.314 seconds (process running for 294.369)
+2026-07-23T18:04:37.414+05:30  INFO 8652 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:04:38.806+05:30  INFO 8652 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:04:38.808+05:30  INFO 8652 --- [spring-learn] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:04:38.810+05:30  INFO 8652 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:04:38.863+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 8652 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:04:38.864+05:30 DEBUG 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:04:38.864+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:04:38.988+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:04:38.989+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:04:38.990+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:04:38.995+05:30  INFO 8652 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 130 ms
+2026-07-23T18:04:39.067+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:04:39.076+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:04:39.079+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.233 seconds (process running for 296.035)
+2026-07-23T18:04:39.080+05:30  INFO 8652 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:04:49.566+05:30  INFO 8652 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:04:49.567+05:30  INFO 8652 --- [spring-learn] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:04:49.570+05:30  INFO 8652 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:04:49.617+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 8652 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:04:49.617+05:30 DEBUG 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:04:49.617+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:04:49.728+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:04:49.729+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:04:49.729+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:04:49.736+05:30  INFO 8652 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 117 ms
+2026-07-23T18:04:49.807+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:04:49.816+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:04:49.818+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.215 seconds (process running for 306.774)
+2026-07-23T18:04:49.819+05:30  INFO 8652 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:04:51.215+05:30  INFO 8652 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:04:51.216+05:30  INFO 8652 --- [spring-learn] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:04:51.219+05:30  INFO 8652 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:04:51.274+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 8652 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:04:51.274+05:30 DEBUG 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:04:51.275+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:04:51.360+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:04:51.361+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:04:51.361+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:04:51.366+05:30  INFO 8652 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 90 ms
+2026-07-23T18:04:51.419+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:04:51.426+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:04:51.428+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.168 seconds (process running for 308.384)
+2026-07-23T18:04:51.429+05:30  INFO 8652 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:04:52.830+05:30  INFO 8652 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:04:52.831+05:30  INFO 8652 --- [spring-learn] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:04:52.834+05:30  INFO 8652 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:04:52.892+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 8652 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:04:52.892+05:30 DEBUG 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:04:52.892+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:04:52.969+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:04:52.969+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:04:52.969+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:04:52.974+05:30  INFO 8652 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 81 ms
+2026-07-23T18:04:53.019+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:04:53.028+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:04:53.030+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.149 seconds (process running for 309.986)
+2026-07-23T18:04:53.031+05:30  INFO 8652 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:05:04.528+05:30  INFO 8652 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:05:04.530+05:30  INFO 8652 --- [spring-learn] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:05:04.533+05:30  INFO 8652 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:05:04.588+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 8652 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:05:04.588+05:30 DEBUG 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:05:04.588+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:05:04.674+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:05:04.674+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:05:04.674+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:05:04.679+05:30  INFO 8652 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 89 ms
+2026-07-23T18:05:04.733+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:05:04.739+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:05:04.741+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.164 seconds (process running for 321.697)
+2026-07-23T18:05:04.742+05:30  INFO 8652 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:05:06.149+05:30  INFO 8652 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:05:06.151+05:30  INFO 8652 --- [spring-learn] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:05:06.154+05:30  INFO 8652 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:05:06.206+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 8652 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:05:06.206+05:30 DEBUG 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:05:06.206+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:05:06.294+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:05:06.294+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:05:06.295+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:05:06.299+05:30  INFO 8652 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 92 ms
+2026-07-23T18:05:06.310+05:30  WARN 8652 --- [spring-learn] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'countryController' defined in file [/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes/com/cognizant/spring_learn/Controllers/CountryController.class]: Failed to instantiate [com.cognizant.spring_learn.Controllers.CountryController]: Constructor threw exception
+2026-07-23T18:05:06.310+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-07-23T18:05:06.313+05:30  INFO 8652 --- [spring-learn] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-23T18:05:06.320+05:30 ERROR 8652 --- [spring-learn] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'countryController' defined in file [/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes/com/cognizant/spring_learn/Controllers/CountryController.class]: Failed to instantiate [com.cognizant.spring_learn.Controllers.CountryController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
+	at com.cognizant.spring_learn.SpringLearnApplication.main(SpringLearnApplication.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.0.jar:4.1.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cognizant.spring_learn.Controllers.CountryController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Re cannot be resolved to a type
+
+	at com.cognizant.spring_learn.Controllers.CountryController.<init>(CountryController.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 26 common frames omitted
+
+2026-07-23T18:05:07.744+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 8652 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:05:07.744+05:30 DEBUG 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:05:07.745+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:05:07.841+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:05:07.842+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:05:07.843+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:05:07.849+05:30  INFO 8652 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 104 ms
+2026-07-23T18:05:07.861+05:30  WARN 8652 --- [spring-learn] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'countryController' defined in file [/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes/com/cognizant/spring_learn/Controllers/CountryController.class]: Failed to instantiate [com.cognizant.spring_learn.Controllers.CountryController]: Constructor threw exception
+2026-07-23T18:05:07.862+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-07-23T18:05:07.865+05:30  INFO 8652 --- [spring-learn] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-23T18:05:07.867+05:30 ERROR 8652 --- [spring-learn] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'countryController' defined in file [/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes/com/cognizant/spring_learn/Controllers/CountryController.class]: Failed to instantiate [com.cognizant.spring_learn.Controllers.CountryController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
+	at com.cognizant.spring_learn.SpringLearnApplication.main(SpringLearnApplication.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.0.jar:4.1.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cognizant.spring_learn.Controllers.CountryController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Req cannot be resolved to a type
+
+	at com.cognizant.spring_learn.Controllers.CountryController.<init>(CountryController.java:14) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 26 common frames omitted
+
+2026-07-23T18:05:09.294+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 8652 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:05:09.294+05:30 DEBUG 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:05:09.294+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:05:09.385+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:05:09.386+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:05:09.386+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:05:09.391+05:30  INFO 8652 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 96 ms
+2026-07-23T18:05:09.455+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:05:09.463+05:30  INFO 8652 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:05:09.465+05:30  INFO 8652 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.182 seconds (process running for 326.421)
+2026-07-23T18:05:09.466+05:30  INFO 8652 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:05:10.698+05:30  INFO 8652 --- [spring-learn] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:05:10.701+05:30  INFO 8652 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:05:12.076+05:30  INFO 17976 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 17976 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:05:12.078+05:30 DEBUG 17976 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:05:12.078+05:30  INFO 17976 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:05:12.112+05:30  INFO 17976 --- [spring-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-23T18:05:12.113+05:30  INFO 17976 --- [spring-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-23T18:05:12.771+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:05:12.782+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:05:12.782+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:05:12.804+05:30  INFO 17976 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 690 ms
+2026-07-23T18:05:13.181+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:05:13.219+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:05:13.228+05:30  INFO 17976 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 1.437 seconds (process running for 1.806)
+2026-07-23T18:05:15.075+05:30  INFO 17976 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-23T18:05:15.075+05:30  INFO 17976 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-23T18:05:15.076+05:30  INFO 17976 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-07-23T18:05:51.914+05:30  INFO 17976 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:05:51.916+05:30  INFO 17976 --- [spring-learn] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:05:51.923+05:30  INFO 17976 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:05:51.978+05:30  INFO 17976 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 17976 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:05:51.978+05:30 DEBUG 17976 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:05:51.979+05:30  INFO 17976 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:05:52.201+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:05:52.202+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:05:52.202+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:05:52.209+05:30  INFO 17976 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 227 ms
+2026-07-23T18:05:52.228+05:30 DEBUG 17976 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:05:52.229+05:30 DEBUG 17976 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:05:52.229+05:30 DEBUG 17976 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:05:52.297+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:05:52.309+05:30  INFO 17976 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:05:52.313+05:30  INFO 17976 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.354 seconds (process running for 40.89)
+2026-07-23T18:05:52.314+05:30  INFO 17976 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:05:53.030+05:30  INFO 17976 --- [spring-learn] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:05:53.033+05:30  INFO 17976 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:05:54.395+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:05:54.397+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:05:54.397+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:05:54.431+05:30  INFO 19361 --- [spring-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-23T18:05:54.431+05:30  INFO 19361 --- [spring-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-23T18:05:55.111+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:05:55.120+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:05:55.120+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:05:55.141+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 710 ms
+2026-07-23T18:05:55.237+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:05:55.238+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:05:55.238+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:05:55.494+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:05:55.531+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:05:55.538+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 1.408 seconds (process running for 1.776)
+2026-07-23T18:05:57.399+05:30  INFO 19361 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-23T18:05:57.400+05:30  INFO 19361 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-23T18:05:57.401+05:30  INFO 19361 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-23T18:06:22.121+05:30  INFO 19361 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:06:22.124+05:30  INFO 19361 --- [spring-learn] [Thread-1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:06:22.131+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:06:22.180+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:06:22.180+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:06:22.180+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:06:22.379+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:06:22.380+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:06:22.380+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:06:22.387+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 203 ms
+2026-07-23T18:06:22.408+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:06:22.409+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:06:22.409+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:06:22.485+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:06:22.500+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:06:22.504+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.341 seconds (process running for 28.741)
+2026-07-23T18:06:22.506+05:30  INFO 19361 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:06:25.309+05:30  INFO 19361 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:06:25.311+05:30  INFO 19361 --- [spring-learn] [Thread-5] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:06:25.316+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:06:25.358+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:06:25.359+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:06:25.359+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:06:25.485+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:06:25.485+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:06:25.486+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:06:25.491+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 131 ms
+2026-07-23T18:06:25.505+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:06:25.506+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:06:25.506+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:06:25.561+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:06:25.578+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:06:25.581+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.237 seconds (process running for 31.819)
+2026-07-23T18:06:25.582+05:30  INFO 19361 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:06:26.973+05:30  INFO 19361 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:06:26.974+05:30  INFO 19361 --- [spring-learn] [Thread-9] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:06:26.977+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:06:27.023+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:06:27.023+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:06:27.024+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:06:27.177+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:06:27.180+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:06:27.180+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:06:27.187+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 161 ms
+2026-07-23T18:06:27.203+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:06:27.204+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:06:27.204+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:06:27.261+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:06:27.268+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:06:27.270+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.265 seconds (process running for 33.507)
+2026-07-23T18:06:27.271+05:30  INFO 19361 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:06:43.106+05:30  INFO 19361 --- [spring-learn] [http-nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-23T18:06:43.107+05:30  INFO 19361 --- [spring-learn] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-23T18:06:43.108+05:30  INFO 19361 --- [spring-learn] [http-nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-23T18:06:43.110+05:30  INFO 19361 --- [spring-learn] [http-nio-8083-exec-1] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:06:43.123+05:30 DEBUG 19361 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:06:43.124+05:30 DEBUG 19361 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:06:43.125+05:30 DEBUG 19361 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:06:43.125+05:30  INFO 19361 --- [spring-learn] [http-nio-8083-exec-1] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:06:43.128+05:30 DEBUG 19361 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:06:43.128+05:30 DEBUG 19361 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:06:55.304+05:30  INFO 19361 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:06:55.305+05:30  INFO 19361 --- [spring-learn] [Thread-13] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:06:55.307+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:06:55.354+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:06:55.354+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:06:55.354+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:06:55.506+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:06:55.507+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:06:55.507+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:06:55.515+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 160 ms
+2026-07-23T18:06:55.532+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:06:55.533+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:06:55.533+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:06:55.593+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:06:55.606+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:06:55.609+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.268 seconds (process running for 61.846)
+2026-07-23T18:06:55.610+05:30  INFO 19361 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:06:57.002+05:30  INFO 19361 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:06:57.003+05:30  INFO 19361 --- [spring-learn] [Thread-17] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:06:57.006+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:06:57.047+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:06:57.048+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:06:57.048+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:06:57.148+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:06:57.148+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:06:57.149+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:06:57.153+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 104 ms
+2026-07-23T18:06:57.166+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:06:57.167+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:06:57.167+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:06:57.213+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:06:57.219+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:06:57.221+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.186 seconds (process running for 63.458)
+2026-07-23T18:06:57.222+05:30  INFO 19361 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:06:58.626+05:30  INFO 19361 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:06:58.628+05:30  INFO 19361 --- [spring-learn] [Thread-21] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:06:58.631+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:06:58.670+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:06:58.670+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:06:58.670+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:06:58.782+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:06:58.783+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:06:58.783+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:06:58.788+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 117 ms
+2026-07-23T18:06:58.813+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:06:58.814+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:06:58.814+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:06:58.869+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:06:58.879+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:06:58.881+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.222 seconds (process running for 65.118)
+2026-07-23T18:06:58.882+05:30  INFO 19361 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:07:00.274+05:30  INFO 19361 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:07:00.275+05:30  INFO 19361 --- [spring-learn] [Thread-25] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:07:00.277+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:07:00.320+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:07:00.320+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:07:00.320+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:07:00.420+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:07:00.421+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:07:00.422+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:07:00.428+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 107 ms
+2026-07-23T18:07:00.449+05:30  WARN 19361 --- [spring-learn] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'countryController' defined in file [/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes/com/cognizant/spring_learn/Controllers/CountryController.class]: Failed to instantiate [com.cognizant.spring_learn.Controllers.CountryController]: Constructor threw exception
+2026-07-23T18:07:00.450+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-07-23T18:07:00.459+05:30  INFO 19361 --- [spring-learn] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-07-23T18:07:00.468+05:30 ERROR 19361 --- [spring-learn] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'countryController' defined in file [/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes/com/cognizant/spring_learn/Controllers/CountryController.class]: Failed to instantiate [com.cognizant.spring_learn.Controllers.CountryController]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1342) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1225) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1191) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:994) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-7.0.8.jar:7.0.8]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365) ~[spring-boot-4.1.0.jar:4.1.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354) ~[spring-boot-4.1.0.jar:4.1.0]
+	at com.cognizant.spring_learn.SpringLearnApplication.main(SpringLearnApplication.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) ~[spring-boot-devtools-4.1.0.jar:4.1.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.cognizant.spring_learn.Controllers.CountryController]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:220) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.8.jar:7.0.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1336) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "public", delete this token
+
+	at com.cognizant.spring_learn.Controllers.CountryController.<init>(CountryController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:194) ~[spring-beans-7.0.8.jar:7.0.8]
+	... 26 common frames omitted
+
+2026-07-23T18:07:01.901+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:07:01.901+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:07:01.901+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:07:02.002+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:07:02.003+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:07:02.003+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:07:02.008+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 106 ms
+2026-07-23T18:07:02.022+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:02.023+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:02.023+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:02.062+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:07:02.068+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:07:02.070+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.179 seconds (process running for 68.307)
+2026-07-23T18:07:02.071+05:30  INFO 19361 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:07:03.470+05:30  INFO 19361 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:07:03.471+05:30  INFO 19361 --- [spring-learn] [Thread-29] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:07:03.474+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:07:03.514+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:07:03.515+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:07:03.515+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:07:03.608+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:07:03.608+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:07:03.609+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:07:03.613+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 97 ms
+2026-07-23T18:07:03.623+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:03.623+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:03.623+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:03.661+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:07:03.667+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:07:03.669+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.164 seconds (process running for 69.906)
+2026-07-23T18:07:03.670+05:30  INFO 19361 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:07:06.085+05:30  INFO 19361 --- [spring-learn] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-07-23T18:07:06.086+05:30  INFO 19361 --- [spring-learn] [Thread-36] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:07:06.089+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:07:06.130+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 19361 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:07:06.130+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:07:06.130+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:07:06.209+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:07:06.210+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:07:06.210+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:07:06.214+05:30  INFO 19361 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 83 ms
+2026-07-23T18:07:06.224+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:06.224+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:06.224+05:30 DEBUG 19361 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:06.327+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:07:06.333+05:30  INFO 19361 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:07:06.335+05:30  INFO 19361 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 0.214 seconds (process running for 72.572)
+2026-07-23T18:07:06.336+05:30  INFO 19361 --- [spring-learn] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-07-23T18:07:06.406+05:30  INFO 19361 --- [spring-learn] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-07-23T18:07:06.410+05:30  INFO 19361 --- [spring-learn] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-07-23T18:07:07.760+05:30  INFO 21444 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Starting SpringLearnApplication using Java 17.0.19 with PID 21444 (/Users/sanjana/Desktop/College/Cognizant/Spring_REST_using_Spring_Boot_3/spring-learn/target/classes started by sanjana in /Users/sanjana/Desktop/College/Cognizant)
+2026-07-23T18:07:07.762+05:30 DEBUG 21444 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Running with Spring Boot v4.1.0, Spring v7.0.8
+2026-07-23T18:07:07.763+05:30  INFO 21444 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-07-23T18:07:07.792+05:30  INFO 21444 --- [spring-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-07-23T18:07:07.793+05:30  INFO 21444 --- [spring-learn] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-07-23T18:07:08.486+05:30  INFO 21444 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8083 (http)
+2026-07-23T18:07:08.495+05:30  INFO 21444 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-07-23T18:07:08.496+05:30  INFO 21444 --- [spring-learn] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-07-23T18:07:08.518+05:30  INFO 21444 --- [spring-learn] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 724 ms
+2026-07-23T18:07:08.613+05:30 DEBUG 21444 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:08.613+05:30 DEBUG 21444 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:08.614+05:30 DEBUG 21444 --- [spring-learn] [restartedMain] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:08.874+05:30  INFO 21444 --- [spring-learn] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2026-07-23T18:07:08.910+05:30  INFO 21444 --- [spring-learn] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8083 (http) with context path '/'
+2026-07-23T18:07:08.918+05:30  INFO 21444 --- [spring-learn] [restartedMain] c.c.spring_learn.SpringLearnApplication  : Started SpringLearnApplication in 1.431 seconds (process running for 1.799)
+2026-07-23T18:07:10.753+05:30  INFO 21444 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-07-23T18:07:10.753+05:30  INFO 21444 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-07-23T18:07:10.754+05:30  INFO 21444 --- [spring-learn] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-07-23T18:07:11.558+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-1] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:11.579+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:11.580+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:11.580+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:11.581+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-1] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:11.596+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:11.597+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-1] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:07:12.087+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-2] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:12.107+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-2] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:12.107+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-2] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:12.108+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-2] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:12.108+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-2] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:12.109+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-2] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:12.109+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-2] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:07:12.549+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-3] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:12.560+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-3] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:12.561+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-3] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:12.561+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-3] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:12.561+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-3] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:12.562+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-3] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:12.562+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-3] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:07:12.690+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-4] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:12.699+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-4] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:12.699+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-4] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:12.699+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-4] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:12.700+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-4] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:12.701+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-4] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:12.701+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-4] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:07:12.824+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-5] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:12.832+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-5] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:12.832+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-5] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:12.832+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-5] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:12.833+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-5] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:12.833+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-5] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:12.834+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-5] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:07:13.025+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-6] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:13.032+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-6] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:13.032+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-6] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:13.032+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-6] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:13.032+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-6] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:13.033+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-6] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:13.033+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-6] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:07:13.259+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-7] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:13.265+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-7] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:13.266+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-7] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:13.266+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-7] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:13.267+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-7] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:13.267+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-7] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:13.267+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-7] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:07:13.375+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-8] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:13.382+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-8] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:13.382+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-8] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:13.382+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-8] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:13.383+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-8] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:13.383+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-8] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:13.384+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-8] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:07:13.489+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-9] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:13.495+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-9] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:13.496+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-9] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:13.496+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-9] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:13.496+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-9] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:13.497+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-9] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:13.497+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-9] com.cognizant.spring_learn.Country       : Inside getName()
+2026-07-23T18:07:13.607+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-10] c.c.s.Controllers.CountryController      : START
+2026-07-23T18:07:13.613+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-10] com.cognizant.spring_learn.Country       : Inside Country Constructor.
+2026-07-23T18:07:13.614+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-10] com.cognizant.spring_learn.Country       : Inside setCode()
+2026-07-23T18:07:13.614+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-10] com.cognizant.spring_learn.Country       : Inside setName()
+2026-07-23T18:07:13.614+05:30  INFO 21444 --- [spring-learn] [http-nio-8083-exec-10] c.c.s.Controllers.CountryController      : END
+2026-07-23T18:07:13.615+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-10] com.cognizant.spring_learn.Country       : Inside getCode()
+2026-07-23T18:07:13.615+05:30 DEBUG 21444 --- [spring-learn] [http-nio-8083-exec-10] com.cognizant.spring_learn.Country       : Inside getName()
