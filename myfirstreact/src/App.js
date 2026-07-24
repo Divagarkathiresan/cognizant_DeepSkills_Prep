@@ -1,6 +1,7 @@
 import React from 'react';
 import OfficeSpace from './components/OfficeSpace';
 import CurrencyConvertor from './components/CurrencyConvertor';
+import Greeting from './components/Greeting';
 
 function App() {
   const handleWelcome = (message) => {
@@ -18,6 +19,7 @@ function App() {
       <br /><br />
       <button onClick={handleClick}>Click Me</button>
 
+      <Greeting isLoggedIn={true} />
       <OfficeSpace />
       <CurrencyConvertor />
     </div>
