@@ -1,18 +1,26 @@
 import React from 'react';
-import ListofPlayers from './components/ListofPlayers';
-import IndianPlayers from './components/IndianPlayers';
 import OfficeSpace from './components/OfficeSpace';
+import CurrencyConvertor from './components/CurrencyConvertor';
 
 function App() {
-  const flag = true;
+  const handleWelcome = (message) => {
+    alert(message);
+  };
+
+  const handleClick = (event) => {
+    event.preventDefault();
+    alert('I was clicked');
+  };
 
   return (
-    // <div className="App" style={{ padding: '20px', fontFamily: 'Arial' }}>
-    //   {flag ? <ListofPlayers /> : <IndianPlayers />}
-    //   <hr />
-    //   <IndianPlayers />
-    // </div>
-    <OfficeSpace />
+    <div style={{ padding: '20px', fontFamily: 'Arial' }}>
+      <button onClick={() => handleWelcome('welcome')}>Say Welcome</button>
+      <br /><br />
+      <button onClick={handleClick}>Click Me</button>
+
+      <OfficeSpace />
+      <CurrencyConvertor />
+    </div>
   );
 }
 
